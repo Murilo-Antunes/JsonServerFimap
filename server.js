@@ -2,6 +2,7 @@ const path = require('path');
 const crypto = require('crypto');
 const express = require('express');
 const jsonServer = require('json-server');
+const { createDashboardRouter } = require('./dashboard');
 require('dotenv').config();
 
 const server = jsonServer.create();
@@ -416,6 +417,57 @@ server.use((req, res, next) => {
   return next();
 });
 server.use(requireAuth);
+
+const OWNED_BY_USER = ['conexoes_open_finance', 'metas'];
+const OWNED_BY_CONNECTION = [
+  'contas_financeiras',
+  'transacoes_financeiras',
+  'investimentos_financeiros',
+  'cartoes_financeiros',
+  'faturas_financeiras',
+  'emprestimos_financeiros',
+];
+
+const connectionIdsOf = (userId) =>
+  db.get('conexoes_open_finance').filter({ usuario_id: userId }).map('id').value();
+
+server.use((req, res, next) => {
+  const [, collection, rawId] = req.path.split('/');
+  const byUser = OWNED_BY_USER.includes(collection);
+  const byConnection = OWNED_BY_CONNECTION.includes(collection);
+  if (!byUser && !byConnection) return next();
+
+  const userId = req.user.id;
+
+  if (byConnection && req.method !== 'GET') {
+    return sendError(res, 405, 'SOMENTE_LEITURA', 'Estes dados são sincronizados pelo Open Finance.');
+  }
+
+  if (rawId) {
+    const record = db.get(collection).find({ id: Number(rawId) }).value();
+    if (!record) return next(); // o json-server responde 404
+    const owns = byUser ? record.usuario_id === userId : connectionIdsOf(userId).includes(record.conexao_id);
+    if (!owns) return sendError(res, 404, 'NAO_ENCONTRADO', 'Registro não encontrado.');
+    if (byUser && (req.method === 'PUT' || req.method === 'PATCH')) {
+      req.body = { ...(req.body || {}), usuario_id: userId };
+    }
+    return next();
+  }
+
+  if (req.method === 'GET') {
+    // Sobrescreve qualquer filtro enviado pelo cliente: ele só enxerga os próprios dados
+    if (byUser) req.query.usuario_id = String(userId);
+    else {
+      const ids = connectionIdsOf(userId);
+      req.query.conexao_id = ids.length ? ids.map(String) : ['-1'];
+    }
+  } else if (req.method === 'POST' && byUser) {
+    req.body = { ...(req.body || {}), usuario_id: userId };
+  }
+  return next();
+});
+
+server.use('/dashboard', createDashboardRouter(db));
 
 // Nunca devolver senha_hash nem cpf nas coleções genéricas
 router.render = (req, res) => {
