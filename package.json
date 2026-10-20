@@ -4,7 +4,7 @@
     "express": "^5.3.0"
   },
   "scripts": {
-    "start": "json-server db.json"
+    "start": "npx json-server db.json"
   },
   "devDependencies": {
     "json-server": "0.17.4"
