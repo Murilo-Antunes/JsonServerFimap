@@ -13,7 +13,8 @@
       "username_social": "murilo",
       "biografia_social": "Aprendendo a cuidar melhor das finanças.",
       "localizacao_estado": "SP",
-      "visibilidade": "publico"
+      "visibilidade": "publico",
+      "senha_hash": "f8f884e179fdd94be93b98e19c1137b4:4b61a8dbf9c52c103e230121b6c489e46a493fccc2b93d18c9979c636847925d3a781c2902d31ff2a43c1be58fe2a2fb780bd5dc1cb53555b940cf397336e66b"
     }
   ],
   "dispositivos": [
@@ -54,7 +55,7 @@
       "nome": "Meta de emergência",
       "descricao": "Reserva para imprevistos",
       "valor_inicio": 0,
-      "valor_desejado": 0.0,
+      "valor_desejado": 0,
       "valor_total": 0,
       "data_alvo": "2026-10-19T12:00:00-03:00",
       "categoria_id": 1,
@@ -64,17 +65,17 @@
         "id": 1,
         "nome": "Meta de emergência"
       },
-      "percentual_progresso": 0.0
+      "percentual_progresso": 0
     }
   ],
   "simulacoes_investimentos": [
     {
       "nome": "Meta de emergência",
       "descricao": "Reserva para imprevistos",
-      "valor_inicial": 0.0,
-      "aporte_mensal": 0.0,
+      "valor_inicial": 0,
+      "aporte_mensal": 0,
       "prazo": 1,
-      "rentabilidade": 0.0,
+      "rentabilidade": 0,
       "id": 1,
       "data_criacao": "2026-10-19T12:00:00-03:00"
     }
@@ -83,11 +84,11 @@
     {
       "nome": "Meta de emergência",
       "descricao": "Reserva para imprevistos",
-      "saldo_devedor": 0.0,
+      "saldo_devedor": 0,
       "prazo": 1,
-      "taxa": 0.0,
+      "taxa": 0,
       "sistema_calculo": "Exemplo",
-      "aporte_mensal": 0.0,
+      "aporte_mensal": 0,
       "modalidade": "Exemplo",
       "id": 1,
       "data_criacao": "2026-10-19T12:00:00-03:00"
@@ -233,7 +234,7 @@
       "instituicao_nome": "Exemplo",
       "tipo": "informativa",
       "nome": "Meta de emergência",
-      "saldo": 0.0,
+      "saldo": 0,
       "id": 1
     }
   ],
@@ -243,7 +244,7 @@
       "conexao_id": 1,
       "conta_id_externo": "Exemplo",
       "tipo": "receita",
-      "valor": 0.0,
+      "valor": 0,
       "data": "2026-12-31",
       "descricao": "Reserva para imprevistos",
       "categoria": "Exemplo",
@@ -255,8 +256,8 @@
       "id_externo": "Exemplo",
       "conexao_id": 1,
       "ativo_codigo": "Exemplo",
-      "quantidade": 0.0,
-      "valor_atual": 0.0,
+      "quantidade": 0,
+      "valor_atual": 0,
       "id": 1
     }
   ],
@@ -275,7 +276,7 @@
       "conexao_id": 1,
       "nome": "Meta de emergência",
       "final_cartao": "Exemplo",
-      "limite": 0.0,
+      "limite": 0,
       "id": 1
     }
   ],
@@ -285,7 +286,7 @@
       "conexao_id": 1,
       "cartao_id_externo": "Exemplo",
       "periodo": "mensal",
-      "valor_total": 0.0,
+      "valor_total": 0,
       "status": "ativo",
       "id": 1
     }
