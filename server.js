@@ -1,21 +1,10 @@
+const jsonServer = require('json-server');
 
-const express = require('express')
-const { create, router } = require('json-server')
+const server = jsonServer.create();
+server.set('trust proxy', 1); // atrás do proxy do Render: req.ip passa a ser o IP real do cliente
 
-const app = express()
-const jsonServer = create()
-const dbRouter = router('db.json')
+server.use(jsonServer.defaults()); // CORS, logger, static
+server.use(jsonServer.bodyParser);
 
-app.use(express.json())
-
-// Rotas personalizadas entram aqui,
-// antes do roteador genérico.
-
-// Rotas CRUD geradas pelo JSON Server
-app.use('/api/v1', dbRouter)
-
-const PORT = process.env.PORT || 3001
-
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`FIMAP Mock API rodando na porta ${PORT}`)
-})
+const port = process.env.PORT || 3000;
+server.listen(port, () => console.log(`API em http://localhost:${port}`));
