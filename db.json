@@ -1,1104 +1,326 @@
 {
-    "usuarios": [
-      {
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Murilo Antunes",
+      "cpf": "12345678909",
+      "email": "murilo@example.com",
+      "username": "murilo",
+      "xp_usuario": 320,
+      "nivel_total": 3,
+      "foto_perfil": null,
+      "nome_exibicao": "Murilo",
+      "username_social": "murilo",
+      "biografia_social": "Aprendendo a cuidar melhor das finanças.",
+      "localizacao_estado": "SP",
+      "visibilidade": "publico"
+    }
+  ],
+  "dispositivos": [
+    {
+      "id": 1,
+      "nome": "Chrome Windows",
+      "tipo": "web",
+      "identificador": "device-demo-001",
+      "data_ultimo_acesso": "2026-10-19T12:00:00-03:00"
+    }
+  ],
+  "configuracoes": [
+    {
+      "notificacao": true,
+      "alerta": true,
+      "relatorio": true,
+      "recomendacao": true,
+      "topicos": true,
+      "id": 1
+    }
+  ],
+  "conexoes_open_finance": [
+    {
+      "id": 1,
+      "status": "pendente",
+      "ultima_sincronizacao": "2026-10-19T12:00:00-03:00",
+      "url_autorizacao": "Exemplo"
+    }
+  ],
+  "categorias_meta": [
+    {
+      "id": 1,
+      "nome": "Meta de emergência"
+    }
+  ],
+  "metas": [
+    {
+      "nome": "Meta de emergência",
+      "descricao": "Reserva para imprevistos",
+      "valor_inicio": 0,
+      "valor_desejado": 0.0,
+      "valor_total": 0,
+      "data_alvo": "2026-10-19T12:00:00-03:00",
+      "categoria_id": 1,
+      "id": 1,
+      "status": "em_andamento",
+      "categoria": {
         "id": 1,
-        "nome": "Murilo Antunes",
-        "cpf": "123.456.789-00",
-        "email": "murilo.antunes@email.com",
-        "username": "muriloantunes",
-        "senha": "12345678",
-        "xp_usuario": 1280,
-        "nivel_total": 8,
-        "foto_perfil": "https://i.pravatar.cc/150?img=12",
-        "nome_exibicao": "Murilo Antunes",
-        "username_social": "murilo",
-        "biografia_social": "Aprendendo a organizar melhor minha vida financeira.",
-        "localizacao_estado": "SP",
-        "visibilidade": "publico"
+        "nome": "Meta de emergência"
       },
-      {
-        "id": 2,
-        "nome": "Ana Beatriz Souza",
-        "cpf": "234.567.890-11",
-        "email": "ana.souza@email.com",
-        "username": "anabeatriz",
-        "senha": "12345678",
-        "xp_usuario": 2140,
-        "nivel_total": 12,
-        "foto_perfil": "https://i.pravatar.cc/150?img=47",
-        "nome_exibicao": "Ana Beatriz",
-        "username_social": "anabeatriz",
-        "biografia_social": "Investimentos, organização e independência financeira.",
-        "localizacao_estado": "SP",
-        "visibilidade": "publico"
-      },
-      {
-        "id": 3,
-        "nome": "Lucas Oliveira",
-        "cpf": "345.678.901-22",
-        "email": "lucas.oliveira@email.com",
-        "username": "lucasoliveira",
-        "senha": "12345678",
-        "xp_usuario": 760,
-        "nivel_total": 5,
-        "foto_perfil": "https://i.pravatar.cc/150?img=68",
-        "nome_exibicao": "Lucas Oliveira",
-        "username_social": "lucasoliveira",
-        "biografia_social": "Buscando sair das dívidas e montar minha reserva.",
-        "localizacao_estado": "MG",
-        "visibilidade": "publico"
-      }
-    ],
-    "dispositivos": [
-      {
+      "percentual_progresso": 0.0
+    }
+  ],
+  "simulacoes_investimentos": [
+    {
+      "nome": "Meta de emergência",
+      "descricao": "Reserva para imprevistos",
+      "valor_inicial": 0.0,
+      "aporte_mensal": 0.0,
+      "prazo": 1,
+      "rentabilidade": 0.0,
+      "id": 1,
+      "data_criacao": "2026-10-19T12:00:00-03:00"
+    }
+  ],
+  "simulacoes_amortizacoes": [
+    {
+      "nome": "Meta de emergência",
+      "descricao": "Reserva para imprevistos",
+      "saldo_devedor": 0.0,
+      "prazo": 1,
+      "taxa": 0.0,
+      "sistema_calculo": "Exemplo",
+      "aporte_mensal": 0.0,
+      "modalidade": "Exemplo",
+      "id": 1,
+      "data_criacao": "2026-10-19T12:00:00-03:00"
+    }
+  ],
+  "notificacoes": [
+    {
+      "id": 1,
+      "icone": "Exemplo",
+      "nome": "Meta de emergência",
+      "conteudo": "Revise suas despesas recorrentes.",
+      "data_criacao": "2026-10-19T12:00:00-03:00",
+      "lida": true
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "autor": {
         "id": 1,
-        "usuario_id": 1,
-        "nome": "Chrome Windows",
-        "sistema_operacional": "Windows 11",
-        "mac": "AA:BB:CC:DD:EE:01",
-        "data_cadastro": "2026-09-20T13:10:00Z",
-        "atual": true
+        "nome_exibicao": "Murilo",
+        "username_social": "Exemplo",
+        "foto_perfil": "Exemplo"
       },
-      {
-        "id": 2,
-        "usuario_id": 1,
-        "nome": "Galaxy S24",
-        "sistema_operacional": "Android 15",
-        "mac": "AA:BB:CC:DD:EE:02",
-        "data_cadastro": "2026-09-22T18:30:00Z",
-        "atual": false
-      },
-      {
-        "id": 3,
-        "usuario_id": 2,
-        "nome": "iPhone 15",
-        "sistema_operacional": "iOS 18",
-        "mac": "AA:BB:CC:DD:EE:03",
-        "data_cadastro": "2026-09-25T10:15:00Z",
-        "atual": true
-      }
-    ],
-    "configuracoes": [
-      {
+      "conteudo": "Revise suas despesas recorrentes.",
+      "data_criacao": "2026-10-19T12:00:00-03:00",
+      "data_atualizacao": "2026-10-19T12:00:00-03:00",
+      "status": "publicado",
+      "total_curtidas": 1,
+      "total_comentarios": 1,
+      "curtido_pelo_usuario": true
+    }
+  ],
+  "comentarios": [
+    {
+      "id": 1,
+      "post_id": 1,
+      "autor": {
         "id": 1,
-        "usuario_id": 1,
-        "notificacao": true,
-        "alerta": true,
-        "relatorio": true,
-        "recomendacao": true,
-        "topicos": true
+        "nome_exibicao": "Murilo",
+        "username_social": "Exemplo",
+        "foto_perfil": "Exemplo"
       },
-      {
-        "id": 2,
-        "usuario_id": 2,
-        "notificacao": true,
-        "alerta": true,
-        "relatorio": false,
-        "recomendacao": true,
-        "topicos": true
-      },
-      {
-        "id": 3,
-        "usuario_id": 3,
-        "notificacao": true,
-        "alerta": false,
-        "relatorio": true,
-        "recomendacao": true,
-        "topicos": false
-      }
-    ],
-    "conexoes_open_finance": [
-      {
+      "comentario_pai_id": 1,
+      "mensagem": "Como posso organizar minhas finanças?",
+      "data_criacao": "2026-10-19T12:00:00-03:00",
+      "total_curtidas": 1,
+      "curtido_pelo_usuario": true,
+      "total_respostas": 1
+    }
+  ],
+  "categorias_denuncia": [
+    {
+      "id": 1,
+      "nome": "Meta de emergência"
+    }
+  ],
+  "denuncias": [
+    {
+      "id": 1,
+      "post_id": 1,
+      "titulo": "Dica para economizar",
+      "descricao": "Reserva para imprevistos",
+      "categoria_id": 1,
+      "data_criacao": "2026-10-19T12:00:00-03:00"
+    }
+  ],
+  "badges": [
+    {
+      "id": 1,
+      "nome": "Meta de emergência",
+      "descricao": "Reserva para imprevistos",
+      "icone": "Exemplo",
+      "xp": 1
+    }
+  ],
+  "badges_usuarios": [
+    {
+      "badge": {
         "id": 1,
-        "usuario_id": 1,
-        "status": "autorizada",
-        "ultima_sincronizacao": "2026-10-07T08:15:00Z",
-        "url_autorizacao": null,
-        "instituicao_id_externo": "nubank"
+        "nome": "Meta de emergência",
+        "descricao": "Reserva para imprevistos",
+        "icone": "Exemplo",
+        "xp": 1
       },
-      {
-        "id": 2,
-        "usuario_id": 1,
-        "status": "autorizada",
-        "ultima_sincronizacao": "2026-10-07T08:12:00Z",
-        "url_autorizacao": null,
-        "instituicao_id_externo": "itau"
-      },
-      {
-        "id": 3,
-        "usuario_id": 2,
-        "status": "autorizada",
-        "ultima_sincronizacao": "2026-10-06T22:40:00Z",
-        "url_autorizacao": null,
-        "instituicao_id_externo": "inter"
-      },
-      {
-        "id": 4,
-        "usuario_id": 3,
-        "status": "pendente",
-        "ultima_sincronizacao": null,
-        "url_autorizacao": "https://sandbox.fimap.app/open-finance/authorize/4",
-        "instituicao_id_externo": "bradesco"
-      }
-    ],
-    "resumo_financeiro": [
-      {
+      "data_conquista": "2026-10-19T12:00:00-03:00",
+      "id": 1
+    }
+  ],
+  "ranking": [
+    {
+      "posicao": 1,
+      "pontos_total": 1,
+      "usuario": {
         "id": 1,
-        "usuario_id": 1,
-        "saldo_total": 8420.55,
-        "receitas_periodo": 5200.0,
-        "despesas_periodo": 3180.45,
-        "atualizado_em": "2026-10-07T08:15:00Z"
+        "nome_exibicao": "Murilo",
+        "username_social": "Exemplo",
+        "foto_perfil": "Exemplo"
       },
-      {
-        "id": 2,
-        "usuario_id": 2,
-        "saldo_total": 12650.8,
-        "receitas_periodo": 6800.0,
-        "despesas_periodo": 4125.3,
-        "atualizado_em": "2026-10-06T22:40:00Z"
-      },
-      {
-        "id": 3,
-        "usuario_id": 3,
-        "saldo_total": 2350.2,
-        "receitas_periodo": 3100.0,
-        "despesas_periodo": 2749.8,
-        "atualizado_em": "2026-10-06T20:10:00Z"
-      }
-    ],
-    "contas_financeiras": [
-      {
+      "id": 1
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "nome": "Meta de emergência",
+      "data_criacao": "2026-10-19T12:00:00-03:00"
+    }
+  ],
+  "mensagens": [
+    {
+      "id": 1,
+      "chat_id": 1,
+      "papel": "usuario",
+      "conteudo": "Revise suas despesas recorrentes.",
+      "data_envio": "2026-10-19T12:00:00-03:00"
+    }
+  ],
+  "categorias_recomendacao": [
+    {
+      "id": 1,
+      "nome": "Meta de emergência"
+    }
+  ],
+  "recomendacoes_ia": [
+    {
+      "id": 1,
+      "titulo": "Dica para economizar",
+      "descricao": "Reserva para imprevistos",
+      "impacto": "Exemplo",
+      "data_criacao": "2026-10-19T12:00:00-03:00",
+      "status": "pendente",
+      "categoria": {
         "id": 1,
-        "id_externo": "acc_nu_001",
-        "usuario_id": 1,
-        "conexao_id": 1,
-        "instituicao_nome": "Nubank",
-        "tipo": "conta_corrente",
-        "nome": "Conta Nubank",
-        "saldo": 5280.55
-      },
-      {
-        "id": 2,
-        "id_externo": "acc_itau_001",
-        "usuario_id": 1,
-        "conexao_id": 2,
-        "instituicao_nome": "Itaú",
-        "tipo": "conta_corrente",
-        "nome": "Conta Itaú",
-        "saldo": 3140.0
-      },
-      {
-        "id": 3,
-        "id_externo": "acc_inter_001",
-        "usuario_id": 2,
-        "conexao_id": 3,
-        "instituicao_nome": "Inter",
-        "tipo": "conta_corrente",
-        "nome": "Conta Inter",
-        "saldo": 12650.8
+        "nome": "Meta de emergência"
       }
-    ],
-    "transacoes_financeiras": [
-      {
-        "id": 1,
-        "id_externo": "tx_001",
-        "usuario_id": 1,
-        "conexao_id": 1,
-        "conta_id_externo": "acc_nu_001",
-        "tipo": "receita",
-        "valor": 5200.0,
-        "data": "2026-10-05",
-        "descricao": "Salário",
-        "categoria": "Renda"
-      },
-      {
-        "id": 2,
-        "id_externo": "tx_002",
-        "usuario_id": 1,
-        "conexao_id": 1,
-        "conta_id_externo": "acc_nu_001",
-        "tipo": "despesa",
-        "valor": 180.0,
-        "data": "2026-10-04",
-        "descricao": "Internet + TV",
-        "categoria": "Moradia"
-      },
-      {
-        "id": 3,
-        "id_externo": "tx_003",
-        "usuario_id": 1,
-        "conexao_id": 1,
-        "conta_id_externo": "acc_nu_001",
-        "tipo": "despesa",
-        "valor": 129.9,
-        "data": "2026-10-03",
-        "descricao": "Academia",
-        "categoria": "Saúde"
-      },
-      {
-        "id": 4,
-        "id_externo": "tx_004",
-        "usuario_id": 1,
-        "conexao_id": 2,
-        "conta_id_externo": "acc_itau_001",
-        "tipo": "despesa",
-        "valor": 850.0,
-        "data": "2026-10-02",
-        "descricao": "Aluguel",
-        "categoria": "Moradia"
-      },
-      {
-        "id": 5,
-        "id_externo": "tx_005",
-        "usuario_id": 1,
-        "conexao_id": 1,
-        "conta_id_externo": "acc_nu_001",
-        "tipo": "despesa",
-        "valor": 320.55,
-        "data": "2026-10-01",
-        "descricao": "Supermercado",
-        "categoria": "Alimentação"
-      },
-      {
-        "id": 6,
-        "id_externo": "tx_006",
-        "usuario_id": 2,
-        "conexao_id": 3,
-        "conta_id_externo": "acc_inter_001",
-        "tipo": "receita",
-        "valor": 6800.0,
-        "data": "2026-10-05",
-        "descricao": "Salário",
-        "categoria": "Renda"
-      },
-      {
-        "id": 7,
-        "id_externo": "tx_007",
-        "usuario_id": 2,
-        "conexao_id": 3,
-        "conta_id_externo": "acc_inter_001",
-        "tipo": "despesa",
-        "valor": 460.0,
-        "data": "2026-10-03",
-        "descricao": "Supermercado",
-        "categoria": "Alimentação"
-      },
-      {
-        "id": 8,
-        "id_externo": "tx_008",
-        "usuario_id": 3,
-        "conexao_id": 4,
-        "conta_id_externo": "acc_br_001",
-        "tipo": "despesa",
-        "valor": 980.0,
-        "data": "2026-10-01",
-        "descricao": "Parcela do financiamento",
-        "categoria": "Dívidas"
-      }
-    ],
-    "investimentos_financeiros": [
-      {
-        "id": 1,
-        "id_externo": "inv_001",
-        "usuario_id": 1,
-        "conexao_id": 1,
-        "ativo_codigo": "CDB100",
-        "quantidade": 1,
-        "valor_atual": 2500.0
-      },
-      {
-        "id": 2,
-        "id_externo": "inv_002",
-        "usuario_id": 1,
-        "conexao_id": 2,
-        "ativo_codigo": "IVVB11",
-        "quantidade": 8,
-        "valor_atual": 2640.0
-      },
-      {
-        "id": 3,
-        "id_externo": "inv_003",
-        "usuario_id": 2,
-        "conexao_id": 3,
-        "ativo_codigo": "BOVA11",
-        "quantidade": 15,
-        "valor_atual": 1920.0
-      }
-    ],
-    "ativos_financeiros": [
-      {
-        "id": 1,
-        "codigo": "CDB100",
-        "nome": "CDB 100% CDI",
-        "tipo": "renda_fixa",
-        "mercado": "bancário"
-      },
-      {
-        "id": 2,
-        "codigo": "IVVB11",
-        "nome": "iShares S&P 500",
-        "tipo": "ETF",
-        "mercado": "B3"
-      },
-      {
-        "id": 3,
-        "codigo": "BOVA11",
-        "nome": "iShares Ibovespa",
-        "tipo": "ETF",
-        "mercado": "B3"
-      },
-      {
-        "id": 4,
-        "codigo": "TESOURO_SELIC",
-        "nome": "Tesouro Selic",
-        "tipo": "renda_fixa",
-        "mercado": "Tesouro Direto"
-      }
-    ],
-    "cartoes_financeiros": [
-      {
-        "id": 1,
-        "id_externo": "card_nu_001",
-        "usuario_id": 1,
-        "conexao_id": 1,
-        "nome": "Nubank Platinum",
-        "final_cartao": "1234",
-        "limite": 6500.0
-      },
-      {
-        "id": 2,
-        "id_externo": "card_itau_001",
-        "usuario_id": 1,
-        "conexao_id": 2,
-        "nome": "Itaú Click",
-        "final_cartao": "5678",
-        "limite": 4200.0
-      },
-      {
-        "id": 3,
-        "id_externo": "card_inter_001",
-        "usuario_id": 2,
-        "conexao_id": 3,
-        "nome": "Inter Gold",
-        "final_cartao": "9012",
-        "limite": 8000.0
-      }
-    ],
-    "faturas_financeiras": [
-      {
-        "id": 1,
-        "id_externo": "inv_001",
-        "usuario_id": 1,
-        "conexao_id": 1,
-        "cartao_id_externo": "card_nu_001",
-        "periodo": "2026-10",
-        "valor_total": 1840.35,
-        "status": "aberta"
-      },
-      {
-        "id": 2,
-        "id_externo": "inv_002",
-        "usuario_id": 1,
-        "conexao_id": 2,
-        "cartao_id_externo": "card_itau_001",
-        "periodo": "2026-10",
-        "valor_total": 920.1,
-        "status": "aberta"
-      },
-      {
-        "id": 3,
-        "id_externo": "inv_003",
-        "usuario_id": 2,
-        "conexao_id": 3,
-        "cartao_id_externo": "card_inter_001",
-        "periodo": "2026-10",
-        "valor_total": 2150.75,
-        "status": "aberta"
-      }
-    ],
-    "categorias_meta": [
-      {
-        "id": 1,
-        "nome": "Reserva de emergência"
-      },
-      {
-        "id": 2,
-        "nome": "Viagem"
-      },
-      {
-        "id": 3,
-        "nome": "Veículo"
-      },
-      {
-        "id": 4,
-        "nome": "Casa"
-      },
-      {
-        "id": 5,
-        "nome": "Educação"
-      },
-      {
-        "id": 6,
-        "nome": "Investimentos"
-      }
-    ],
-    "metas": [
-      {
-        "id": 1,
-        "usuario_id": 1,
-        "nome": "Reserva de emergência",
-        "descricao": "Construir uma reserva equivalente a seis meses de despesas.",
-        "valor_inicio": 1000.0,
-        "valor_desejado": 12000.0,
-        "valor_total": 7420.55,
-        "data_alvo": "2027-06-30T23:59:59Z",
-        "categoria_id": 1,
-        "status": "em_andamento",
-        "categoria": {
-          "id": 1,
-          "nome": "Reserva de emergência"
-        },
-        "percentual_progresso": 61.84
-      },
-      {
-        "id": 2,
-        "usuario_id": 1,
-        "nome": "Viagem para o Nordeste",
-        "descricao": "Passagens, hospedagem e alimentação.",
-        "valor_inicio": 0,
-        "valor_desejado": 5000.0,
-        "valor_total": 1850.0,
-        "data_alvo": "2027-01-15T23:59:59Z",
-        "categoria_id": 2,
-        "status": "em_andamento",
-        "categoria": {
-          "id": 2,
-          "nome": "Viagem"
-        },
-        "percentual_progresso": 37.0
-      },
-      {
-        "id": 3,
-        "usuario_id": 2,
-        "nome": "Entrada do apartamento",
-        "descricao": "Juntar valor para entrada do primeiro imóvel.",
-        "valor_inicio": 3000.0,
-        "valor_desejado": 50000.0,
-        "valor_total": 18500.0,
-        "data_alvo": "2029-12-31T23:59:59Z",
-        "categoria_id": 4,
-        "status": "em_andamento",
-        "categoria": {
-          "id": 4,
-          "nome": "Casa"
-        },
-        "percentual_progresso": 37.0
-      }
-    ],
-    "simulacoes_investimento": [
-      {
-        "id": 1,
-        "usuario_id": 1,
-        "nome": "Reserva em CDB",
-        "descricao": "Simulação para formar reserva de emergência.",
-        "valor_inicial": 2500.0,
-        "aporte_mensal": 800.0,
-        "prazo": 24,
-        "rentabilidade": 0.95,
-        "data_criacao": "2026-09-25T15:00:00Z"
-      },
-      {
-        "id": 2,
-        "usuario_id": 1,
-        "nome": "Aposentadoria",
-        "descricao": "Aporte mensal de longo prazo.",
-        "valor_inicial": 5000.0,
-        "aporte_mensal": 600.0,
-        "prazo": 120,
-        "rentabilidade": 0.8,
-        "data_criacao": "2026-09-28T18:20:00Z"
-      },
-      {
-        "id": 3,
-        "usuario_id": 2,
-        "nome": "Viagem",
-        "descricao": "Investimento para objetivo de curto prazo.",
-        "valor_inicial": 1000.0,
-        "aporte_mensal": 500.0,
-        "prazo": 18,
-        "rentabilidade": 0.85,
-        "data_criacao": "2026-10-01T12:00:00Z"
-      }
-    ],
-    "simulacoes_amortizacao": [
-      {
-        "id": 1,
-        "usuario_id": 3,
-        "nome": "Financiamento do carro",
-        "descricao": "Avaliar antecipação de parcelas.",
-        "saldo_devedor": 28500.0,
-        "prazo": 36,
-        "taxa": 1.49,
-        "sistema_calculo": "PRICE",
-        "aporte_mensal": 500.0,
-        "modalidade": "reduzir prazo",
-        "data_criacao": "2026-09-30T19:00:00Z"
-      },
-      {
-        "id": 2,
-        "usuario_id": 1,
-        "nome": "Empréstimo pessoal",
-        "descricao": "Simulação de amortização com aportes extras.",
-        "saldo_devedor": 8400.0,
-        "prazo": 18,
-        "taxa": 2.1,
-        "sistema_calculo": "PRICE",
-        "aporte_mensal": 300.0,
-        "modalidade": "reduzir prazo",
-        "data_criacao": "2026-10-02T10:30:00Z"
-      }
-    ],
-    "notificacoes": [
-      {
-        "id": 1,
-        "usuario_id": 1,
-        "icone": "wallet",
-        "nome": "Gasto acima da média",
-        "conteudo": "Seus gastos com alimentação aumentaram 18% neste mês.",
-        "data_criacao": "2026-10-07T08:00:00Z",
-        "lida": false
-      },
-      {
-        "id": 2,
-        "usuario_id": 1,
-        "icone": "target",
-        "nome": "Meta em andamento",
-        "conteudo": "Você já atingiu 61,84% da sua reserva de emergência.",
-        "data_criacao": "2026-10-06T13:00:00Z",
-        "lida": true
-      },
-      {
-        "id": 3,
-        "usuario_id": 1,
-        "icone": "bulb",
-        "nome": "Nova recomendação da IA",
-        "conteudo": "Encontramos uma oportunidade para reduzir uma despesa recorrente.",
-        "data_criacao": "2026-10-05T17:30:00Z",
-        "lida": false
-      },
-      {
-        "id": 4,
-        "usuario_id": 2,
-        "icone": "chart",
-        "nome": "Investimentos",
-        "conteudo": "Sua carteira teve valorização no período.",
-        "data_criacao": "2026-10-06T09:10:00Z",
-        "lida": false
-      }
-    ],
-    "posts": [
-      {
-        "id": 1,
-        "autor": {
-          "id": 1,
-          "nome_exibicao": "Murilo Antunes",
-          "username_social": "murilo",
-          "foto_perfil": "https://i.pravatar.cc/150?img=12"
-        },
-        "conteudo": "Vocês preferem deixar a reserva de emergência em CDB ou Tesouro Selic?",
-        "data_criacao": "2026-10-06T18:30:00Z",
-        "data_atualizacao": null,
-        "status": "publicado",
-        "total_curtidas": 12,
-        "total_comentarios": 4,
-        "curtido_pelo_usuario": true
-      },
-      {
-        "id": 2,
-        "autor": {
-          "id": 2,
-          "nome_exibicao": "Ana Beatriz",
-          "username_social": "anabeatriz",
-          "foto_perfil": "https://i.pravatar.cc/150?img=47"
-        },
-        "conteudo": "Uma dica que me ajudou: separar o dinheiro das contas fixas assim que o salário cai.",
-        "data_criacao": "2026-10-05T14:20:00Z",
-        "data_atualizacao": null,
-        "status": "publicado",
-        "total_curtidas": 28,
-        "total_comentarios": 7,
-        "curtido_pelo_usuario": false
-      },
-      {
-        "id": 3,
-        "autor": {
-          "id": 3,
-          "nome_exibicao": "Lucas Oliveira",
-          "username_social": "lucasoliveira",
-          "foto_perfil": "https://i.pravatar.cc/150?img=68"
-        },
-        "conteudo": "Alguém já conseguiu renegociar juros de financiamento diretamente com o banco?",
-        "data_criacao": "2026-10-04T20:10:00Z",
-        "data_atualizacao": "2026-10-04T21:05:00Z",
-        "status": "publicado",
-        "total_curtidas": 9,
-        "total_comentarios": 5,
-        "curtido_pelo_usuario": false
-      }
-    ],
-    "comentarios": [
-      {
-        "id": 1,
-        "post_id": 1,
-        "autor": {
-          "id": 2,
-          "nome_exibicao": "Ana Beatriz",
-          "username_social": "anabeatriz",
-          "foto_perfil": "https://i.pravatar.cc/150?img=47"
-        },
-        "comentario_pai_id": null,
-        "mensagem": "Eu gosto de CDB com liquidez diária porque facilita o resgate.",
-        "data_criacao": "2026-10-06T19:00:00Z",
-        "total_curtidas": 5,
-        "curtido_pelo_usuario": true,
-        "total_respostas": 1
-      },
-      {
-        "id": 2,
-        "post_id": 1,
-        "autor": {
-          "id": 3,
-          "nome_exibicao": "Lucas Oliveira",
-          "username_social": "lucasoliveira",
-          "foto_perfil": "https://i.pravatar.cc/150?img=68"
-        },
-        "comentario_pai_id": null,
-        "mensagem": "Estou começando agora e também estou pesquisando sobre isso.",
-        "data_criacao": "2026-10-06T19:15:00Z",
-        "total_curtidas": 2,
-        "curtido_pelo_usuario": false,
-        "total_respostas": 0
-      },
-      {
-        "id": 3,
-        "post_id": 1,
-        "autor": {
-          "id": 1,
-          "nome_exibicao": "Murilo Antunes",
-          "username_social": "murilo",
-          "foto_perfil": "https://i.pravatar.cc/150?img=12"
-        },
-        "comentario_pai_id": 1,
-        "mensagem": "Também estou considerando essa opção pela liquidez.",
-        "data_criacao": "2026-10-06T19:20:00Z",
-        "total_curtidas": 1,
-        "curtido_pelo_usuario": false,
-        "total_respostas": 0
-      },
-      {
-        "id": 4,
-        "post_id": 2,
-        "autor": {
-          "id": 1,
-          "nome_exibicao": "Murilo Antunes",
-          "username_social": "murilo",
-          "foto_perfil": "https://i.pravatar.cc/150?img=12"
-        },
-        "comentario_pai_id": null,
-        "mensagem": "Essa estratégia realmente ajuda a não gastar o dinheiro das contas.",
-        "data_criacao": "2026-10-05T15:00:00Z",
-        "total_curtidas": 4,
-        "curtido_pelo_usuario": false,
-        "total_respostas": 0
-      }
-    ],
-    "categorias_denuncia": [
-      {
-        "id": 1,
-        "nome": "Spam"
-      },
-      {
-        "id": 2,
-        "nome": "Conteúdo ofensivo"
-      },
-      {
-        "id": 3,
-        "nome": "Informação enganosa"
-      },
-      {
-        "id": 4,
-        "nome": "Fraude ou golpe"
-      },
-      {
-        "id": 5,
-        "nome": "Outro"
-      }
-    ],
-    "denuncias": [
-      {
-        "id": 1,
-        "post_id": 3,
-        "titulo": "Possível informação enganosa",
-        "descricao": "O conteúdo parece recomendar uma prática financeira sem apresentar contexto suficiente.",
-        "categoria_id": 3,
-        "data_criacao": "2026-10-05T09:00:00Z"
-      }
-    ],
-    "seguidores": [
-      {
-        "id": 1,
-        "usuario_id": 1,
-        "seguindo_usuario_id": 2,
-        "data_criacao": "2026-09-25T12:00:00Z"
-      },
-      {
-        "id": 2,
-        "usuario_id": 2,
-        "seguindo_usuario_id": 1,
-        "data_criacao": "2026-09-25T13:00:00Z"
-      },
-      {
-        "id": 3,
-        "usuario_id": 3,
-        "seguindo_usuario_id": 1,
-        "data_criacao": "2026-10-01T10:00:00Z"
-      }
-    ],
-    "curtidas_posts": [
-      {
-        "id": 1,
-        "post_id": 1,
-        "usuario_id": 1,
-        "data_criacao": "2026-10-06T18:40:00Z"
-      },
-      {
-        "id": 2,
-        "post_id": 1,
-        "usuario_id": 2,
-        "data_criacao": "2026-10-06T18:50:00Z"
-      },
-      {
-        "id": 3,
-        "post_id": 2,
-        "usuario_id": 1,
-        "data_criacao": "2026-10-05T15:10:00Z"
-      }
-    ],
-    "curtidas_comentarios": [
-      {
-        "id": 1,
-        "comentario_id": 1,
-        "usuario_id": 1,
-        "data_criacao": "2026-10-06T19:05:00Z"
-      },
-      {
-        "id": 2,
-        "comentario_id": 1,
-        "usuario_id": 3,
-        "data_criacao": "2026-10-06T19:07:00Z"
-      }
-    ],
-    "badges": [
-      {
-        "id": 1,
-        "nome": "Primeiro passo",
-        "descricao": "Conectou sua primeira conta ao FIMAP.",
-        "icone": "link",
-        "xp": 100
-      },
-      {
-        "id": 2,
-        "nome": "Organizado",
-        "descricao": "Criou sua primeira meta financeira.",
-        "icone": "target",
-        "xp": 150
-      },
-      {
-        "id": 3,
-        "nome": "Investidor",
-        "descricao": "Realizou sua primeira simulação de investimento.",
-        "icone": "chart",
-        "xp": 200
-      },
-      {
-        "id": 4,
-        "nome": "Comunitário",
-        "descricao": "Publicou seu primeiro post na comunidade.",
-        "icone": "users",
-        "xp": 100
-      },
-      {
-        "id": 5,
-        "nome": "Constante",
-        "descricao": "Acessou o FIMAP por sete dias consecutivos.",
-        "icone": "calendar",
-        "xp": 250
-      }
-    ],
-    "badges_usuarios": [
-      {
-        "id": 1,
-        "usuario_id": 1,
-        "badge": {
-          "id": 1,
-          "nome": "Primeiro passo",
-          "descricao": "Conectou sua primeira conta ao FIMAP.",
-          "icone": "link",
-          "xp": 100
-        },
-        "data_conquista": "2026-09-20T13:30:00Z"
-      },
-      {
-        "id": 2,
-        "usuario_id": 1,
-        "badge": {
-          "id": 2,
-          "nome": "Organizado",
-          "descricao": "Criou sua primeira meta financeira.",
-          "icone": "target",
-          "xp": 150
-        },
-        "data_conquista": "2026-09-21T10:00:00Z"
-      },
-      {
-        "id": 3,
-        "usuario_id": 1,
-        "badge": {
-          "id": 3,
-          "nome": "Investidor",
-          "descricao": "Realizou sua primeira simulação de investimento.",
-          "icone": "chart",
-          "xp": 200
-        },
-        "data_conquista": "2026-09-25T15:10:00Z"
-      },
-      {
-        "id": 4,
-        "usuario_id": 2,
-        "badge": {
-          "id": 1,
-          "nome": "Primeiro passo",
-          "descricao": "Conectou sua primeira conta ao FIMAP.",
-          "icone": "link",
-          "xp": 100
-        },
-        "data_conquista": "2026-09-25T10:30:00Z"
-      }
-    ],
-    "ranking": [
-      {
-        "id": 1,
-        "posicao": 1,
-        "pontos_total": 2140,
-        "usuario": {
-          "id": 2,
-          "nome_exibicao": "Ana Beatriz",
-          "username_social": "anabeatriz",
-          "foto_perfil": "https://i.pravatar.cc/150?img=47"
-        }
-      },
-      {
-        "id": 2,
-        "posicao": 2,
-        "pontos_total": 1280,
-        "usuario": {
-          "id": 1,
-          "nome_exibicao": "Murilo Antunes",
-          "username_social": "murilo",
-          "foto_perfil": "https://i.pravatar.cc/150?img=12"
-        }
-      },
-      {
-        "id": 3,
-        "posicao": 3,
-        "pontos_total": 760,
-        "usuario": {
-          "id": 3,
-          "nome_exibicao": "Lucas Oliveira",
-          "username_social": "lucasoliveira",
-          "foto_perfil": "https://i.pravatar.cc/150?img=68"
-        }
-      }
-    ],
-    "chats": [
-      {
-        "id": 1,
-        "usuario_id": 1,
-        "nome": "Organização financeira",
-        "data_criacao": "2026-10-02T12:00:00Z"
-      },
-      {
-        "id": 2,
-        "usuario_id": 1,
-        "nome": "Investimentos",
-        "data_criacao": "2026-10-04T18:30:00Z"
-      },
-      {
-        "id": 3,
-        "usuario_id": 2,
-        "nome": "Reserva de emergência",
-        "data_criacao": "2026-10-05T09:20:00Z"
-      }
-    ],
-    "mensagens": [
-      {
-        "id": 1,
-        "chat_id": 1,
-        "papel": "usuario",
-        "conteudo": "Como posso reduzir meus gastos este mês?",
-        "data_envio": "2026-10-02T12:01:00Z"
-      },
-      {
-        "id": 2,
-        "chat_id": 1,
-        "papel": "assistente",
-        "conteudo": "Analisei seus gastos recentes. As maiores oportunidades estão em assinaturas, alimentação fora de casa e serviços recorrentes.",
-        "data_envio": "2026-10-02T12:01:03Z"
-      },
-      {
-        "id": 3,
-        "chat_id": 1,
-        "papel": "usuario",
-        "conteudo": "Qual despesa parece mais fácil de reduzir?",
-        "data_envio": "2026-10-02T12:02:00Z"
-      },
-      {
-        "id": 4,
-        "chat_id": 1,
-        "papel": "assistente",
-        "conteudo": "Sua assinatura de internet + TV de R$ 180 pode ser comparada com ofertas disponíveis na sua região.",
-        "data_envio": "2026-10-02T12:02:04Z"
-      },
-      {
-        "id": 5,
-        "chat_id": 2,
-        "papel": "usuario",
-        "conteudo": "Tenho dinheiro parado. O que devo considerar?",
-        "data_envio": "2026-10-04T18:31:00Z"
-      },
-      {
-        "id": 6,
-        "chat_id": 2,
-        "papel": "assistente",
-        "conteudo": "Antes de investir, considere sua reserva de emergência, prazo do objetivo, liquidez e tolerância a risco.",
-        "data_envio": "2026-10-04T18:31:04Z"
-      },
-      {
-        "id": 7,
-        "chat_id": 3,
-        "papel": "usuario",
-        "conteudo": "Quanto devo ter na minha reserva?",
-        "data_envio": "2026-10-05T09:21:00Z"
-      },
-      {
-        "id": 8,
-        "chat_id": 3,
-        "papel": "assistente",
-        "conteudo": "Uma referência comum é acumular alguns meses das suas despesas essenciais. O valor ideal depende da estabilidade da sua renda.",
-        "data_envio": "2026-10-05T09:21:04Z"
-      }
-    ],
-    "categorias_recomendacao": [
-      {
-        "id": 1,
-        "nome": "Redução de despesas"
-      },
-      {
-        "id": 2,
-        "nome": "Investimentos"
-      },
-      {
-        "id": 3,
-        "nome": "Dívidas"
-      },
-      {
-        "id": 4,
-        "nome": "Metas"
-      },
-      {
-        "id": 5,
-        "nome": "Serviços recorrentes"
-      }
-    ],
-    "recomendacoes_ia": [
-      {
-        "id": 1,
-        "usuario_id": 1,
-        "titulo": "Reduza sua conta de internet",
-        "descricao": "Sua despesa recorrente de internet + TV está acima de algumas alternativas disponíveis na sua região. Compare planos antes de renovar.",
-        "impacto": "R$ 40/mês",
-        "data_criacao": "2026-10-05T17:20:00Z",
-        "status": "pendente",
-        "categoria": {
-          "id": 5,
-          "nome": "Serviços recorrentes"
-        }
-      },
-      {
-        "id": 2,
-        "usuario_id": 1,
-        "titulo": "Aumente sua reserva",
-        "descricao": "Você possui margem positiva no mês e pode direcionar parte dela para sua meta de reserva de emergência.",
-        "impacto": "R$ 300/mês",
-        "data_criacao": "2026-10-04T10:00:00Z",
-        "status": "aceita",
-        "categoria": {
-          "id": 4,
-          "nome": "Metas"
-        }
-      },
-      {
-        "id": 3,
-        "usuario_id": 1,
-        "titulo": "Compare sua academia",
-        "descricao": "Seu gasto recorrente com academia pode ser comparado com outras opções próximas da sua região.",
-        "impacto": "Até R$ 30/mês",
-        "data_criacao": "2026-10-03T14:30:00Z",
-        "status": "pendente",
-        "categoria": {
-          "id": 1,
-          "nome": "Redução de despesas"
-        }
-      },
-      {
-        "id": 4,
-        "usuario_id": 2,
-        "titulo": "Diversifique sua carteira",
-        "descricao": "Sua carteira está concentrada em poucos ativos. Avalie diversificação de acordo com seus objetivos e perfil de risco.",
-        "impacto": "Longo prazo",
-        "data_criacao": "2026-10-02T11:00:00Z",
-        "status": "pendente",
-        "categoria": {
-          "id": 2,
-          "nome": "Investimentos"
-        }
-      }
-    ],
-    "codigos_otp": [
-      {
-        "id": 1,
-        "usuario_id": 1,
-        "email": "murilo.antunes@email.com",
-        "codigo": "482913",
-        "ativo": true,
-        "data_expiracao": "2026-10-07T09:15:00Z"
-      }
-    ],
-    "sessoes": [
-      {
-        "id": 1,
-        "usuario_id": 1,
-        "token_acesso": "mock-access-token-murilo",
-        "token_renovacao": "mock-refresh-token-murilo",
-        "expira_em": 3600
-      },
-      {
-        "id": 2,
-        "usuario_id": 2,
-        "token_acesso": "mock-access-token-ana",
-        "token_renovacao": "mock-refresh-token-ana",
-        "expira_em": 3600
-      }
-    ]
-  }
+    }
+  ],
+  "contas_financeiras": [
+    {
+      "id_externo": "Exemplo",
+      "conexao_id": 1,
+      "instituicao_nome": "Exemplo",
+      "tipo": "informativa",
+      "nome": "Meta de emergência",
+      "saldo": 0.0,
+      "id": 1
+    }
+  ],
+  "transacoes_financeiras": [
+    {
+      "id_externo": "Exemplo",
+      "conexao_id": 1,
+      "conta_id_externo": "Exemplo",
+      "tipo": "receita",
+      "valor": 0.0,
+      "data": "2026-12-31",
+      "descricao": "Reserva para imprevistos",
+      "categoria": "Exemplo",
+      "id": 1
+    }
+  ],
+  "investimentos_financeiros": [
+    {
+      "id_externo": "Exemplo",
+      "conexao_id": 1,
+      "ativo_codigo": "Exemplo",
+      "quantidade": 0.0,
+      "valor_atual": 0.0,
+      "id": 1
+    }
+  ],
+  "ativos_financeiros": [
+    {
+      "codigo": "Exemplo",
+      "nome": "Meta de emergência",
+      "tipo": "informativa",
+      "mercado": "Exemplo",
+      "id": 1
+    }
+  ],
+  "cartoes_financeiros": [
+    {
+      "id_externo": "Exemplo",
+      "conexao_id": 1,
+      "nome": "Meta de emergência",
+      "final_cartao": "Exemplo",
+      "limite": 0.0,
+      "id": 1
+    }
+  ],
+  "faturas_financeiras": [
+    {
+      "id_externo": "Exemplo",
+      "conexao_id": 1,
+      "cartao_id_externo": "Exemplo",
+      "periodo": "mensal",
+      "valor_total": 0.0,
+      "status": "ativo",
+      "id": 1
+    }
+  ],
+  "seguidores": [
+    {
+      "id": 1,
+      "seguidor_id": 1,
+      "seguido_id": 2,
+      "data_criacao": "2026-10-01T10:00:00-03:00"
+    }
+  ],
+  "curtidas_posts": [
+    {
+      "id": 1,
+      "usuario_id": 1,
+      "post_id": 1,
+      "data_criacao": "2026-10-18T10:00:00-03:00"
+    }
+  ],
+  "curtidas_comentarios": [
+    {
+      "id": 1,
+      "usuario_id": 1,
+      "comentario_id": 1,
+      "data_criacao": "2026-10-18T10:05:00-03:00"
+    }
+  ],
+  "participantes_chats": [
+    {
+      "id": 1,
+      "usuario_id": 1,
+      "chat_id": 1
+    }
+  ],
+  "codigos_otp": [],
+  "sessoes": []
+}
