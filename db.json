@@ -70,55 +70,513 @@
   ],
   "simulacoes_investimentos": [
     {
-      "nome": "Meta de emergência",
-      "descricao": "Reserva para imprevistos",
-      "valor_inicial": 0,
-      "aporte_mensal": 0,
-      "prazo": 1,
-      "rentabilidade": 0,
+      "nome": "Reserva para imprevistos",
+      "descricao": "Formar uma reserva com liquidez para despesas inesperadas",
+      "valor_inicial": 1800,
+      "aporte_mensal": 400,
+      "prazo": 12,
+      "rentabilidade": 0.0075,
       "id": 1,
-      "data_criacao": "2026-10-19T12:00:00-03:00"
+      "data_criacao": "2026-10-17T12:00:00-03:00"
+    },
+    {
+      "nome": "Intercâmbio acadêmico",
+      "descricao": "Juntar recursos para passagem, hospedagem e custos de estudo",
+      "valor_inicial": 2500,
+      "aporte_mensal": 550,
+      "prazo": 24,
+      "rentabilidade": 0.008,
+      "id": 2,
+      "data_criacao": "2026-10-15T12:00:00-03:00"
+    },
+    {
+      "nome": "Entrada do primeiro imóvel",
+      "descricao": "Acumular entrada sem comprometer despesas essenciais",
+      "valor_inicial": 7500,
+      "aporte_mensal": 900,
+      "prazo": 72,
+      "rentabilidade": 0.0085,
+      "id": 3,
+      "data_criacao": "2026-10-13T12:00:00-03:00"
+    },
+    {
+      "nome": "Notebook para trabalho",
+      "descricao": "Planejar a compra à vista de equipamento de trabalho",
+      "valor_inicial": 900,
+      "aporte_mensal": 300,
+      "prazo": 9,
+      "rentabilidade": 0.0065,
+      "id": 4,
+      "data_criacao": "2026-10-11T12:00:00-03:00"
+    },
+    {
+      "nome": "Aposentadoria no longo prazo",
+      "descricao": "Investir de forma recorrente para um objetivo distante",
+      "valor_inicial": 12000,
+      "aporte_mensal": 650,
+      "prazo": 300,
+      "rentabilidade": 0.009,
+      "id": 5,
+      "data_criacao": "2026-10-09T12:00:00-03:00"
+    },
+    {
+      "nome": "Viagem pelo Nordeste",
+      "descricao": "Separar dinheiro para uma viagem planejada",
+      "valor_inicial": 500,
+      "aporte_mensal": 350,
+      "prazo": 15,
+      "rentabilidade": 0.007,
+      "id": 6,
+      "data_criacao": "2026-10-07T12:00:00-03:00"
+    },
+    {
+      "nome": "Certificação profissional",
+      "descricao": "Pagar exame, curso preparatório e certificação",
+      "valor_inicial": 250,
+      "aporte_mensal": 220,
+      "prazo": 10,
+      "rentabilidade": 0.006,
+      "id": 7,
+      "data_criacao": "2026-10-05T12:00:00-03:00"
+    },
+    {
+      "nome": "Fundo para mudança",
+      "descricao": "Organizar custos de caução, transporte e mobília",
+      "valor_inicial": 1600,
+      "aporte_mensal": 400,
+      "prazo": 18,
+      "rentabilidade": 0.0075,
+      "id": 8,
+      "data_criacao": "2026-10-03T12:00:00-03:00"
+    },
+    {
+      "nome": "Montar escritório em casa",
+      "descricao": "Comprar mesa, cadeira e periféricos gradualmente",
+      "valor_inicial": 600,
+      "aporte_mensal": 280,
+      "prazo": 12,
+      "rentabilidade": 0.0065,
+      "id": 9,
+      "data_criacao": "2026-10-01T12:00:00-03:00"
+    },
+    {
+      "nome": "Festa de casamento",
+      "descricao": "Distribuir os custos de uma celebração ao longo do tempo",
+      "valor_inicial": 3500,
+      "aporte_mensal": 500,
+      "prazo": 30,
+      "rentabilidade": 0.007,
+      "id": 10,
+      "data_criacao": "2026-09-29T12:00:00-03:00"
+    },
+    {
+      "nome": "Troca de automóvel",
+      "descricao": "Planejar a troca do veículo com antecedência",
+      "valor_inicial": 4200,
+      "aporte_mensal": 700,
+      "prazo": 36,
+      "rentabilidade": 0.0075,
+      "id": 11,
+      "data_criacao": "2026-09-27T12:00:00-03:00"
+    },
+    {
+      "nome": "Curso de especialização",
+      "descricao": "Guardar dinheiro para mensalidades e materiais",
+      "valor_inicial": 800,
+      "aporte_mensal": 320,
+      "prazo": 20,
+      "rentabilidade": 0.008,
+      "id": 12,
+      "data_criacao": "2026-09-25T12:00:00-03:00"
     }
   ],
   "simulacoes_amortizacoes": [
     {
-      "nome": "Meta de emergência",
-      "descricao": "Reserva para imprevistos",
-      "saldo_devedor": 0,
-      "prazo": 1,
-      "taxa": 0,
-      "sistema_calculo": "Exemplo",
-      "aporte_mensal": 0,
-      "modalidade": "Exemplo",
+      "nome": "Financiamento de apartamento",
+      "descricao": "Comparação de cenários de amortização para financiamento de apartamento, usando pagamentos extras como hipótese de planejamento.",
+      "saldo_devedor": 246500,
+      "prazo": 320,
+      "taxa": 0.0095,
+      "sistema_calculo": "PRICE",
+      "aporte_mensal": 750,
+      "modalidade": "Redução de prazo",
       "id": 1,
-      "data_criacao": "2026-10-19T12:00:00-03:00"
+      "data_criacao": "2026-10-16T12:00:00-03:00"
+    },
+    {
+      "nome": "Crédito pessoal para reforma",
+      "descricao": "Comparação de cenários de amortização para crédito pessoal para reforma, usando pagamentos extras como hipótese de planejamento.",
+      "saldo_devedor": 18400,
+      "prazo": 42,
+      "taxa": 0.021,
+      "sistema_calculo": "PRICE",
+      "aporte_mensal": 350,
+      "modalidade": "Amortização mensal",
+      "id": 2,
+      "data_criacao": "2026-10-13T12:00:00-03:00"
+    },
+    {
+      "nome": "Financiamento de carro usado",
+      "descricao": "Comparação de cenários de amortização para financiamento de carro usado, usando pagamentos extras como hipótese de planejamento.",
+      "saldo_devedor": 52700,
+      "prazo": 54,
+      "taxa": 0.017,
+      "sistema_calculo": "SAC",
+      "aporte_mensal": 500,
+      "modalidade": "Redução de juros",
+      "id": 3,
+      "data_criacao": "2026-10-10T12:00:00-03:00"
+    },
+    {
+      "nome": "Empréstimo para estudos",
+      "descricao": "Comparação de cenários de amortização para empréstimo para estudos, usando pagamentos extras como hipótese de planejamento.",
+      "saldo_devedor": 9800,
+      "prazo": 30,
+      "taxa": 0.015,
+      "sistema_calculo": "PRICE",
+      "aporte_mensal": 250,
+      "modalidade": "Antecipação de parcelas",
+      "id": 4,
+      "data_criacao": "2026-10-07T12:00:00-03:00"
+    },
+    {
+      "nome": "Financiamento de motocicleta",
+      "descricao": "Comparação de cenários de amortização para financiamento de motocicleta, usando pagamentos extras como hipótese de planejamento.",
+      "saldo_devedor": 14200,
+      "prazo": 36,
+      "taxa": 0.018,
+      "sistema_calculo": "SAC",
+      "aporte_mensal": 300,
+      "modalidade": "Redução de prazo",
+      "id": 5,
+      "data_criacao": "2026-10-04T12:00:00-03:00"
+    },
+    {
+      "nome": "Crédito consignado",
+      "descricao": "Comparação de cenários de amortização para crédito consignado, usando pagamentos extras como hipótese de planejamento.",
+      "saldo_devedor": 11600,
+      "prazo": 48,
+      "taxa": 0.013,
+      "sistema_calculo": "PRICE",
+      "aporte_mensal": 220,
+      "modalidade": "Amortização extraordinária",
+      "id": 6,
+      "data_criacao": "2026-10-01T12:00:00-03:00"
+    },
+    {
+      "nome": "Parcelamento de móveis",
+      "descricao": "Comparação de cenários de amortização para parcelamento de móveis, usando pagamentos extras como hipótese de planejamento.",
+      "saldo_devedor": 4650,
+      "prazo": 15,
+      "taxa": 0.019,
+      "sistema_calculo": "PRICE",
+      "aporte_mensal": 180,
+      "modalidade": "Quitação antecipada",
+      "id": 7,
+      "data_criacao": "2026-09-28T12:00:00-03:00"
+    },
+    {
+      "nome": "Empréstimo para equipamento",
+      "descricao": "Comparação de cenários de amortização para empréstimo para equipamento, usando pagamentos extras como hipótese de planejamento.",
+      "saldo_devedor": 7200,
+      "prazo": 24,
+      "taxa": 0.016,
+      "sistema_calculo": "SAC",
+      "aporte_mensal": 280,
+      "modalidade": "Redução de parcela",
+      "id": 8,
+      "data_criacao": "2026-09-25T12:00:00-03:00"
     }
   ],
   "notificacoes": [
     {
       "id": 1,
-      "icone": "Exemplo",
-      "nome": "Meta de emergência",
-      "conteudo": "Revise suas despesas recorrentes.",
-      "data_criacao": "2026-10-19T12:00:00-03:00",
+      "icone": "wallet",
+      "nome": "Saldo revisado",
+      "conteudo": "Os saldos de demonstração foram atualizados. Confira as contas conectadas.",
+      "data_criacao": "2026-10-18T11:00:00-03:00",
+      "lida": false
+    },
+    {
+      "id": 2,
+      "icone": "target",
+      "nome": "Meta em andamento",
+      "conteudo": "Sua meta de intercâmbio já tem um plano de aportes definido.",
+      "data_criacao": "2026-10-17T10:00:00-03:00",
+      "lida": false
+    },
+    {
+      "id": 3,
+      "icone": "credit-card",
+      "nome": "Fatura próxima do vencimento",
+      "conteudo": "Confira o valor previsto e organize o pagamento com antecedência.",
+      "data_criacao": "2026-10-16T09:00:00-03:00",
+      "lida": false
+    },
+    {
+      "id": 4,
+      "icone": "sparkles",
+      "nome": "Sugestão de economia",
+      "conteudo": "Revise serviços recorrentes e veja quais ainda fazem sentido para sua rotina.",
+      "data_criacao": "2026-10-15T08:00:00-03:00",
       "lida": true
+    },
+    {
+      "id": 5,
+      "icone": "message-circle",
+      "nome": "Nova resposta",
+      "conteudo": "Lucas respondeu à sua pergunta sobre como começar a investir.",
+      "data_criacao": "2026-10-14T07:00:00-03:00",
+      "lida": false
+    },
+    {
+      "id": 6,
+      "icone": "trophy",
+      "nome": "Conquista liberada",
+      "conteudo": "Você desbloqueou uma conquista por manter sua organização financeira.",
+      "data_criacao": "2026-10-13T12:00:00-03:00",
+      "lida": true
+    },
+    {
+      "id": 7,
+      "icone": "calendar",
+      "nome": "Conta programada",
+      "conteudo": "Há uma despesa recorrente prevista para os próximos dias.",
+      "data_criacao": "2026-10-12T11:00:00-03:00",
+      "lida": false
+    },
+    {
+      "id": 8,
+      "icone": "shield-check",
+      "nome": "Dica de segurança",
+      "conteudo": "Nunca compartilhe senhas ou códigos de autenticação com terceiros.",
+      "data_criacao": "2026-10-11T10:00:00-03:00",
+      "lida": true
+    },
+    {
+      "id": 9,
+      "icone": "chart-no-axes-combined",
+      "nome": "Simulação disponível",
+      "conteudo": "Compare cenários de aportes mensais para sua meta de longo prazo.",
+      "data_criacao": "2026-10-10T09:00:00-03:00",
+      "lida": false
+    },
+    {
+      "id": 10,
+      "icone": "users",
+      "nome": "Novo seguidor",
+      "conteudo": "Camila Rocha começou a acompanhar suas publicações.",
+      "data_criacao": "2026-10-09T08:00:00-03:00",
+      "lida": true
+    },
+    {
+      "id": 11,
+      "icone": "bell",
+      "nome": "Resumo semanal",
+      "conteudo": "Confira receitas, despesas e categorias com maior movimentação.",
+      "data_criacao": "2026-10-08T07:00:00-03:00",
+      "lida": true
+    },
+    {
+      "id": 12,
+      "icone": "receipt",
+      "nome": "Transação categorizada",
+      "conteudo": "Uma movimentação de demonstração foi associada à categoria Educação.",
+      "data_criacao": "2026-10-19T12:00:00-03:00",
+      "lida": false
     }
   ],
   "posts": [
     {
       "id": 1,
       "autor": {
+        "id": 3,
+        "nome_exibicao": "Lucas Martins",
+        "username_social": "lucasmartins",
+        "foto_perfil": "https://i.pravatar.cc/150?img=11"
+      },
+      "conteudo": "Estou tentando organizar meu primeiro orçamento mensal. Vocês separam o dinheiro por porcentagens ou definem valores para cada categoria?",
+      "data_criacao": "2026-10-17T11:00:00-03:00",
+      "data_atualizacao": "2026-10-18T11:00:00-03:00",
+      "status": "publicado",
+      "total_curtidas": 15,
+      "total_comentarios": 4,
+      "curtido_pelo_usuario": false
+    },
+    {
+      "id": 2,
+      "autor": {
+        "id": 6,
+        "nome_exibicao": "Juliana Alves",
+        "username_social": "ju.alves",
+        "foto_perfil": "https://i.pravatar.cc/150?img=49"
+      },
+      "conteudo": "Consegui economizar preparando almoço em casa durante a semana. O que vocês fazem para manter esse hábito sem enjoar?",
+      "data_criacao": "2026-10-15T10:00:00-03:00",
+      "data_atualizacao": "2026-10-16T10:00:00-03:00",
+      "status": "publicado",
+      "total_curtidas": 9,
+      "total_comentarios": 3,
+      "curtido_pelo_usuario": true
+    },
+    {
+      "id": 3,
+      "autor": {
         "id": 1,
         "nome_exibicao": "Murilo",
-        "username_social": "Exemplo",
-        "foto_perfil": "Exemplo"
+        "username_social": "murilo.dev",
+        "foto_perfil": "https://i.pravatar.cc/150?img=12"
       },
-      "conteudo": "Revise suas despesas recorrentes.",
-      "data_criacao": "2026-10-19T12:00:00-03:00",
-      "data_atualizacao": "2026-10-19T12:00:00-03:00",
+      "conteudo": "Quero começar uma reserva de emergência, mas minha renda varia bastante. Como vocês definem um aporte que seja realista?",
+      "data_criacao": "2026-10-13T09:00:00-03:00",
+      "data_atualizacao": "2026-10-14T12:00:00-03:00",
       "status": "publicado",
-      "total_curtidas": 1,
-      "total_comentarios": 1,
+      "total_curtidas": 21,
+      "total_comentarios": 6,
+      "curtido_pelo_usuario": false
+    },
+    {
+      "id": 4,
+      "autor": {
+        "id": 4,
+        "nome_exibicao": "Beatriz Lima",
+        "username_social": "bia.lima",
+        "foto_perfil": "https://i.pravatar.cc/150?img=44"
+      },
+      "conteudo": "Estou pensando em fazer um curso de especialização. Vocês costumam guardar o valor total antes ou pagar conforme as mensalidades chegam?",
+      "data_criacao": "2026-10-11T12:00:00-03:00",
+      "data_atualizacao": "2026-10-12T11:00:00-03:00",
+      "status": "publicado",
+      "total_curtidas": 7,
+      "total_comentarios": 2,
+      "curtido_pelo_usuario": true
+    },
+    {
+      "id": 5,
+      "autor": {
+        "id": 7,
+        "nome_exibicao": "Pedro Henrique",
+        "username_social": "pedro.h",
+        "foto_perfil": "https://i.pravatar.cc/150?img=14"
+      },
+      "conteudo": "Uma revisão das assinaturas me mostrou que eu pagava por serviços que quase não usava. Vale a pena revisar isso a cada mês.",
+      "data_criacao": "2026-10-09T11:00:00-03:00",
+      "data_atualizacao": "2026-10-10T10:00:00-03:00",
+      "status": "publicado",
+      "total_curtidas": 18,
+      "total_comentarios": 5,
+      "curtido_pelo_usuario": false
+    },
+    {
+      "id": 6,
+      "autor": {
+        "id": 2,
+        "nome_exibicao": "Ana Souza",
+        "username_social": "anasouza",
+        "foto_perfil": "https://i.pravatar.cc/150?img=47"
+      },
+      "conteudo": "Como vocês controlam as parcelas do cartão para saber quanto da renda futura já está comprometida?",
+      "data_criacao": "2026-10-07T10:00:00-03:00",
+      "data_atualizacao": "2026-10-08T12:00:00-03:00",
+      "status": "publicado",
+      "total_curtidas": 12,
+      "total_comentarios": 4,
+      "curtido_pelo_usuario": true
+    },
+    {
+      "id": 7,
+      "autor": {
+        "id": 5,
+        "nome_exibicao": "Rafael Costa",
+        "username_social": "rafa.costa",
+        "foto_perfil": "https://i.pravatar.cc/150?img=13"
+      },
+      "conteudo": "Estou estudando investimentos e percebi que liquidez importa muito para objetivos diferentes. Como vocês separam curto e longo prazo?",
+      "data_criacao": "2026-10-05T09:00:00-03:00",
+      "data_atualizacao": "2026-10-06T11:00:00-03:00",
+      "status": "publicado",
+      "total_curtidas": 26,
+      "total_comentarios": 7,
+      "curtido_pelo_usuario": false
+    },
+    {
+      "id": 8,
+      "autor": {
+        "id": 8,
+        "nome_exibicao": "Camila Rocha",
+        "username_social": "camilarocha",
+        "foto_perfil": "https://i.pravatar.cc/150?img=45"
+      },
+      "conteudo": "Alguém já comparou amortizar um financiamento com manter o dinheiro aplicado? Quais números vocês analisaram?",
+      "data_criacao": "2026-10-03T12:00:00-03:00",
+      "data_atualizacao": "2026-10-04T10:00:00-03:00",
+      "status": "publicado",
+      "total_curtidas": 11,
+      "total_comentarios": 5,
+      "curtido_pelo_usuario": true
+    },
+    {
+      "id": 9,
+      "autor": {
+        "id": 3,
+        "nome_exibicao": "Lucas Martins",
+        "username_social": "lucasmartins",
+        "foto_perfil": "https://i.pravatar.cc/150?img=11"
+      },
+      "conteudo": "Montei uma lista de despesas essenciais e variáveis. Isso ajudou a entender quais cortes não afetariam minha qualidade de vida.",
+      "data_criacao": "2026-10-01T11:00:00-03:00",
+      "data_atualizacao": "2026-10-02T12:00:00-03:00",
+      "status": "editado",
+      "total_curtidas": 8,
+      "total_comentarios": 2,
+      "curtido_pelo_usuario": false
+    },
+    {
+      "id": 10,
+      "autor": {
+        "id": 6,
+        "nome_exibicao": "Juliana Alves",
+        "username_social": "ju.alves",
+        "foto_perfil": "https://i.pravatar.cc/150?img=49"
+      },
+      "conteudo": "Minha meta agora é comprar um notebook sem parcelar. Criei uma meta e programarei transferências no dia do pagamento.",
+      "data_criacao": "2026-09-29T10:00:00-03:00",
+      "data_atualizacao": "2026-09-30T11:00:00-03:00",
+      "status": "publicado",
+      "total_curtidas": 14,
+      "total_comentarios": 4,
+      "curtido_pelo_usuario": true
+    },
+    {
+      "id": 11,
+      "autor": {
+        "id": 1,
+        "nome_exibicao": "Murilo",
+        "username_social": "murilo.dev",
+        "foto_perfil": "https://i.pravatar.cc/150?img=12"
+      },
+      "conteudo": "Qual método vocês usam para evitar compras por impulso em períodos de promoção?",
+      "data_criacao": "2026-09-27T09:00:00-03:00",
+      "data_atualizacao": "2026-09-28T10:00:00-03:00",
+      "status": "publicado",
+      "total_curtidas": 10,
+      "total_comentarios": 3,
+      "curtido_pelo_usuario": false
+    },
+    {
+      "id": 12,
+      "autor": {
+        "id": 4,
+        "nome_exibicao": "Beatriz Lima",
+        "username_social": "bia.lima",
+        "foto_perfil": "https://i.pravatar.cc/150?img=44"
+      },
+      "conteudo": "Quero ajudar meus pais a organizar as despesas da casa. Como conversar sobre dinheiro de forma prática e respeitosa?",
+      "data_criacao": "2026-09-25T12:00:00-03:00",
+      "data_atualizacao": "2026-09-26T12:00:00-03:00",
+      "status": "publicado",
+      "total_curtidas": 17,
+      "total_comentarios": 6,
       "curtido_pelo_usuario": true
     }
   ],
@@ -127,75 +585,1096 @@
       "id": 1,
       "post_id": 1,
       "autor": {
+        "id": 3,
+        "nome_exibicao": "Lucas Martins",
+        "username_social": "lucasmartins",
+        "foto_perfil": "https://i.pravatar.cc/150?img=11"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Revisar as cobranças recorrentes virou meu lembrete mensal de organização.",
+      "data_criacao": "2026-10-18T12:00:00-03:00",
+      "total_curtidas": 2,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 2,
+      "post_id": 1,
+      "autor": {
+        "id": 4,
+        "nome_exibicao": "Beatriz Lima",
+        "username_social": "bia.lima",
+        "foto_perfil": "https://i.pravatar.cc/150?img=44"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Para mim funciona deixar a transferência automática logo após receber.",
+      "data_criacao": "2026-10-17T11:00:00-03:00",
+      "total_curtidas": 5,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 3,
+      "post_id": 1,
+      "autor": {
+        "id": 5,
+        "nome_exibicao": "Rafael Costa",
+        "username_social": "rafa.costa",
+        "foto_perfil": "https://i.pravatar.cc/150?img=13"
+      },
+      "comentario_pai_id": 2,
+      "mensagem": "Vale comparar o custo total e preservar uma reserva para imprevistos.",
+      "data_criacao": "2026-10-16T10:00:00-03:00",
+      "total_curtidas": 8,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 4,
+      "post_id": 2,
+      "autor": {
+        "id": 4,
+        "nome_exibicao": "Beatriz Lima",
+        "username_social": "bia.lima",
+        "foto_perfil": "https://i.pravatar.cc/150?img=44"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Vale comparar o custo total e preservar uma reserva para imprevistos.",
+      "data_criacao": "2026-10-17T12:00:00-03:00",
+      "total_curtidas": 4,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 1
+    },
+    {
+      "id": 5,
+      "post_id": 2,
+      "autor": {
+        "id": 5,
+        "nome_exibicao": "Rafael Costa",
+        "username_social": "rafa.costa",
+        "foto_perfil": "https://i.pravatar.cc/150?img=13"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Eu acompanho as parcelas futuras em uma categoria separada.",
+      "data_criacao": "2026-10-16T11:00:00-03:00",
+      "total_curtidas": 7,
+      "curtido_pelo_usuario": true,
+      "total_respostas": 0
+    },
+    {
+      "id": 6,
+      "post_id": 2,
+      "autor": {
+        "id": 6,
+        "nome_exibicao": "Juliana Alves",
+        "username_social": "ju.alves",
+        "foto_perfil": "https://i.pravatar.cc/150?img=49"
+      },
+      "comentario_pai_id": 5,
+      "mensagem": "Também estou aprendendo isso. Prazo e liquidez mudam bastante a escolha.",
+      "data_criacao": "2026-10-15T10:00:00-03:00",
+      "total_curtidas": 0,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 7,
+      "post_id": 3,
+      "autor": {
+        "id": 5,
+        "nome_exibicao": "Rafael Costa",
+        "username_social": "rafa.costa",
+        "foto_perfil": "https://i.pravatar.cc/150?img=13"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Também estou aprendendo isso. Prazo e liquidez mudam bastante a escolha.",
+      "data_criacao": "2026-10-16T12:00:00-03:00",
+      "total_curtidas": 6,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 8,
+      "post_id": 3,
+      "autor": {
+        "id": 6,
+        "nome_exibicao": "Juliana Alves",
+        "username_social": "ju.alves",
+        "foto_perfil": "https://i.pravatar.cc/150?img=49"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Uma planilha simples já ajuda a enxergar os compromissos dos próximos meses.",
+      "data_criacao": "2026-10-15T11:00:00-03:00",
+      "total_curtidas": 9,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 9,
+      "post_id": 3,
+      "autor": {
+        "id": 7,
+        "nome_exibicao": "Pedro Henrique",
+        "username_social": "pedro.h",
+        "foto_perfil": "https://i.pravatar.cc/150?img=14"
+      },
+      "comentario_pai_id": 8,
+      "mensagem": "Gostei da ideia de separar o essencial do que é flexível.",
+      "data_criacao": "2026-10-14T10:00:00-03:00",
+      "total_curtidas": 2,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 10,
+      "post_id": 3,
+      "autor": {
+        "id": 8,
+        "nome_exibicao": "Camila Rocha",
+        "username_social": "camilarocha",
+        "foto_perfil": "https://i.pravatar.cc/150?img=45"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Você usa algum aplicativo ou planilha para fazer esse acompanhamento?",
+      "data_criacao": "2026-10-13T09:00:00-03:00",
+      "total_curtidas": 5,
+      "curtido_pelo_usuario": true,
+      "total_respostas": 0
+    },
+    {
+      "id": 11,
+      "post_id": 4,
+      "autor": {
+        "id": 6,
+        "nome_exibicao": "Juliana Alves",
+        "username_social": "ju.alves",
+        "foto_perfil": "https://i.pravatar.cc/150?img=49"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Gostei da ideia de separar o essencial do que é flexível.",
+      "data_criacao": "2026-10-15T12:00:00-03:00",
+      "total_curtidas": 8,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 1
+    },
+    {
+      "id": 12,
+      "post_id": 4,
+      "autor": {
+        "id": 7,
+        "nome_exibicao": "Pedro Henrique",
+        "username_social": "pedro.h",
+        "foto_perfil": "https://i.pravatar.cc/150?img=14"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Você usa algum aplicativo ou planilha para fazer esse acompanhamento?",
+      "data_criacao": "2026-10-14T11:00:00-03:00",
+      "total_curtidas": 1,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 13,
+      "post_id": 4,
+      "autor": {
+        "id": 8,
+        "nome_exibicao": "Camila Rocha",
+        "username_social": "camilarocha",
+        "foto_perfil": "https://i.pravatar.cc/150?img=45"
+      },
+      "comentario_pai_id": 12,
+      "mensagem": "É importante não assumir uma parcela só porque ela cabe neste mês.",
+      "data_criacao": "2026-10-13T10:00:00-03:00",
+      "total_curtidas": 4,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 14,
+      "post_id": 5,
+      "autor": {
+        "id": 7,
+        "nome_exibicao": "Pedro Henrique",
+        "username_social": "pedro.h",
+        "foto_perfil": "https://i.pravatar.cc/150?img=14"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "É importante não assumir uma parcela só porque ela cabe neste mês.",
+      "data_criacao": "2026-10-14T12:00:00-03:00",
+      "total_curtidas": 0,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 15,
+      "post_id": 5,
+      "autor": {
+        "id": 8,
+        "nome_exibicao": "Camila Rocha",
+        "username_social": "camilarocha",
+        "foto_perfil": "https://i.pravatar.cc/150?img=45"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Começar pequeno é melhor do que definir um valor alto e abandonar depois.",
+      "data_criacao": "2026-10-13T11:00:00-03:00",
+      "total_curtidas": 3,
+      "curtido_pelo_usuario": true,
+      "total_respostas": 0
+    },
+    {
+      "id": 16,
+      "post_id": 5,
+      "autor": {
         "id": 1,
         "nome_exibicao": "Murilo",
-        "username_social": "Exemplo",
-        "foto_perfil": "Exemplo"
+        "username_social": "murilo.dev",
+        "foto_perfil": "https://i.pravatar.cc/150?img=12"
       },
-      "comentario_pai_id": 1,
-      "mensagem": "Como posso organizar minhas finanças?",
-      "data_criacao": "2026-10-19T12:00:00-03:00",
+      "comentario_pai_id": 15,
+      "mensagem": "Eu compararia taxas, impostos, riscos e prazo antes de tomar uma decisão.",
+      "data_criacao": "2026-10-12T10:00:00-03:00",
+      "total_curtidas": 6,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 17,
+      "post_id": 6,
+      "autor": {
+        "id": 8,
+        "nome_exibicao": "Camila Rocha",
+        "username_social": "camilarocha",
+        "foto_perfil": "https://i.pravatar.cc/150?img=45"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Eu compararia taxas, impostos, riscos e prazo antes de tomar uma decisão.",
+      "data_criacao": "2026-10-13T12:00:00-03:00",
+      "total_curtidas": 2,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 1
+    },
+    {
+      "id": 18,
+      "post_id": 6,
+      "autor": {
+        "id": 1,
+        "nome_exibicao": "Murilo",
+        "username_social": "murilo.dev",
+        "foto_perfil": "https://i.pravatar.cc/150?img=12"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Obrigado por compartilhar, vou testar essa abordagem no próximo mês.",
+      "data_criacao": "2026-10-12T11:00:00-03:00",
+      "total_curtidas": 5,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 19,
+      "post_id": 6,
+      "autor": {
+        "id": 2,
+        "nome_exibicao": "Ana Souza",
+        "username_social": "anasouza",
+        "foto_perfil": "https://i.pravatar.cc/150?img=47"
+      },
+      "comentario_pai_id": 18,
+      "mensagem": "Uma revisão semanal de dez minutos já ajuda a não acumular tudo.",
+      "data_criacao": "2026-10-11T10:00:00-03:00",
+      "total_curtidas": 8,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 20,
+      "post_id": 6,
+      "autor": {
+        "id": 3,
+        "nome_exibicao": "Lucas Martins",
+        "username_social": "lucasmartins",
+        "foto_perfil": "https://i.pravatar.cc/150?img=11"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Também tento esperar um dia antes de comprar algo que não estava planejado.",
+      "data_criacao": "2026-10-10T09:00:00-03:00",
       "total_curtidas": 1,
       "curtido_pelo_usuario": true,
+      "total_respostas": 0
+    },
+    {
+      "id": 21,
+      "post_id": 7,
+      "autor": {
+        "id": 1,
+        "nome_exibicao": "Murilo",
+        "username_social": "murilo.dev",
+        "foto_perfil": "https://i.pravatar.cc/150?img=12"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Uma revisão semanal de dez minutos já ajuda a não acumular tudo.",
+      "data_criacao": "2026-10-12T12:00:00-03:00",
+      "total_curtidas": 4,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 22,
+      "post_id": 7,
+      "autor": {
+        "id": 2,
+        "nome_exibicao": "Ana Souza",
+        "username_social": "anasouza",
+        "foto_perfil": "https://i.pravatar.cc/150?img=47"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Também tento esperar um dia antes de comprar algo que não estava planejado.",
+      "data_criacao": "2026-10-11T11:00:00-03:00",
+      "total_curtidas": 7,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 23,
+      "post_id": 7,
+      "autor": {
+        "id": 3,
+        "nome_exibicao": "Lucas Martins",
+        "username_social": "lucasmartins",
+        "foto_perfil": "https://i.pravatar.cc/150?img=11"
+      },
+      "comentario_pai_id": 22,
+      "mensagem": "Eu começo pelas despesas fixas e só depois distribuo o que sobra entre metas e lazer.",
+      "data_criacao": "2026-10-10T10:00:00-03:00",
+      "total_curtidas": 0,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 24,
+      "post_id": 8,
+      "autor": {
+        "id": 2,
+        "nome_exibicao": "Ana Souza",
+        "username_social": "anasouza",
+        "foto_perfil": "https://i.pravatar.cc/150?img=47"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Eu começo pelas despesas fixas e só depois distribuo o que sobra entre metas e lazer.",
+      "data_criacao": "2026-10-11T12:00:00-03:00",
+      "total_curtidas": 6,
+      "curtido_pelo_usuario": false,
       "total_respostas": 1
+    },
+    {
+      "id": 25,
+      "post_id": 8,
+      "autor": {
+        "id": 3,
+        "nome_exibicao": "Lucas Martins",
+        "username_social": "lucasmartins",
+        "foto_perfil": "https://i.pravatar.cc/150?img=11"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Uma opção é definir um valor mínimo e aumentar o aporte nos meses melhores.",
+      "data_criacao": "2026-10-10T11:00:00-03:00",
+      "total_curtidas": 9,
+      "curtido_pelo_usuario": true,
+      "total_respostas": 0
+    },
+    {
+      "id": 26,
+      "post_id": 8,
+      "autor": {
+        "id": 4,
+        "nome_exibicao": "Beatriz Lima",
+        "username_social": "bia.lima",
+        "foto_perfil": "https://i.pravatar.cc/150?img=44"
+      },
+      "comentario_pai_id": 25,
+      "mensagem": "Revisar as cobranças recorrentes virou meu lembrete mensal de organização.",
+      "data_criacao": "2026-10-09T10:00:00-03:00",
+      "total_curtidas": 2,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 27,
+      "post_id": 9,
+      "autor": {
+        "id": 3,
+        "nome_exibicao": "Lucas Martins",
+        "username_social": "lucasmartins",
+        "foto_perfil": "https://i.pravatar.cc/150?img=11"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Revisar as cobranças recorrentes virou meu lembrete mensal de organização.",
+      "data_criacao": "2026-10-10T12:00:00-03:00",
+      "total_curtidas": 8,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 28,
+      "post_id": 9,
+      "autor": {
+        "id": 4,
+        "nome_exibicao": "Beatriz Lima",
+        "username_social": "bia.lima",
+        "foto_perfil": "https://i.pravatar.cc/150?img=44"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Para mim funciona deixar a transferência automática logo após receber.",
+      "data_criacao": "2026-10-09T11:00:00-03:00",
+      "total_curtidas": 1,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 29,
+      "post_id": 9,
+      "autor": {
+        "id": 5,
+        "nome_exibicao": "Rafael Costa",
+        "username_social": "rafa.costa",
+        "foto_perfil": "https://i.pravatar.cc/150?img=13"
+      },
+      "comentario_pai_id": 28,
+      "mensagem": "Vale comparar o custo total e preservar uma reserva para imprevistos.",
+      "data_criacao": "2026-10-08T10:00:00-03:00",
+      "total_curtidas": 4,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 30,
+      "post_id": 9,
+      "autor": {
+        "id": 6,
+        "nome_exibicao": "Juliana Alves",
+        "username_social": "ju.alves",
+        "foto_perfil": "https://i.pravatar.cc/150?img=49"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Eu acompanho as parcelas futuras em uma categoria separada.",
+      "data_criacao": "2026-10-07T09:00:00-03:00",
+      "total_curtidas": 7,
+      "curtido_pelo_usuario": true,
+      "total_respostas": 0
+    },
+    {
+      "id": 31,
+      "post_id": 10,
+      "autor": {
+        "id": 4,
+        "nome_exibicao": "Beatriz Lima",
+        "username_social": "bia.lima",
+        "foto_perfil": "https://i.pravatar.cc/150?img=44"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Vale comparar o custo total e preservar uma reserva para imprevistos.",
+      "data_criacao": "2026-10-09T12:00:00-03:00",
+      "total_curtidas": 0,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 1
+    },
+    {
+      "id": 32,
+      "post_id": 10,
+      "autor": {
+        "id": 5,
+        "nome_exibicao": "Rafael Costa",
+        "username_social": "rafa.costa",
+        "foto_perfil": "https://i.pravatar.cc/150?img=13"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Eu acompanho as parcelas futuras em uma categoria separada.",
+      "data_criacao": "2026-10-08T11:00:00-03:00",
+      "total_curtidas": 3,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 33,
+      "post_id": 10,
+      "autor": {
+        "id": 6,
+        "nome_exibicao": "Juliana Alves",
+        "username_social": "ju.alves",
+        "foto_perfil": "https://i.pravatar.cc/150?img=49"
+      },
+      "comentario_pai_id": 32,
+      "mensagem": "Também estou aprendendo isso. Prazo e liquidez mudam bastante a escolha.",
+      "data_criacao": "2026-10-07T10:00:00-03:00",
+      "total_curtidas": 6,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 34,
+      "post_id": 11,
+      "autor": {
+        "id": 5,
+        "nome_exibicao": "Rafael Costa",
+        "username_social": "rafa.costa",
+        "foto_perfil": "https://i.pravatar.cc/150?img=13"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Também estou aprendendo isso. Prazo e liquidez mudam bastante a escolha.",
+      "data_criacao": "2026-10-08T12:00:00-03:00",
+      "total_curtidas": 2,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 35,
+      "post_id": 11,
+      "autor": {
+        "id": 6,
+        "nome_exibicao": "Juliana Alves",
+        "username_social": "ju.alves",
+        "foto_perfil": "https://i.pravatar.cc/150?img=49"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Uma planilha simples já ajuda a enxergar os compromissos dos próximos meses.",
+      "data_criacao": "2026-10-07T11:00:00-03:00",
+      "total_curtidas": 5,
+      "curtido_pelo_usuario": true,
+      "total_respostas": 0
+    },
+    {
+      "id": 36,
+      "post_id": 11,
+      "autor": {
+        "id": 7,
+        "nome_exibicao": "Pedro Henrique",
+        "username_social": "pedro.h",
+        "foto_perfil": "https://i.pravatar.cc/150?img=14"
+      },
+      "comentario_pai_id": 35,
+      "mensagem": "Gostei da ideia de separar o essencial do que é flexível.",
+      "data_criacao": "2026-10-06T10:00:00-03:00",
+      "total_curtidas": 8,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 37,
+      "post_id": 12,
+      "autor": {
+        "id": 6,
+        "nome_exibicao": "Juliana Alves",
+        "username_social": "ju.alves",
+        "foto_perfil": "https://i.pravatar.cc/150?img=49"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Gostei da ideia de separar o essencial do que é flexível.",
+      "data_criacao": "2026-10-07T12:00:00-03:00",
+      "total_curtidas": 4,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 1
+    },
+    {
+      "id": 38,
+      "post_id": 12,
+      "autor": {
+        "id": 7,
+        "nome_exibicao": "Pedro Henrique",
+        "username_social": "pedro.h",
+        "foto_perfil": "https://i.pravatar.cc/150?img=14"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Você usa algum aplicativo ou planilha para fazer esse acompanhamento?",
+      "data_criacao": "2026-10-06T11:00:00-03:00",
+      "total_curtidas": 7,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 39,
+      "post_id": 12,
+      "autor": {
+        "id": 8,
+        "nome_exibicao": "Camila Rocha",
+        "username_social": "camilarocha",
+        "foto_perfil": "https://i.pravatar.cc/150?img=45"
+      },
+      "comentario_pai_id": 38,
+      "mensagem": "É importante não assumir uma parcela só porque ela cabe neste mês.",
+      "data_criacao": "2026-10-05T10:00:00-03:00",
+      "total_curtidas": 0,
+      "curtido_pelo_usuario": false,
+      "total_respostas": 0
+    },
+    {
+      "id": 40,
+      "post_id": 12,
+      "autor": {
+        "id": 1,
+        "nome_exibicao": "Murilo",
+        "username_social": "murilo.dev",
+        "foto_perfil": "https://i.pravatar.cc/150?img=12"
+      },
+      "comentario_pai_id": null,
+      "mensagem": "Começar pequeno é melhor do que definir um valor alto e abandonar depois.",
+      "data_criacao": "2026-10-04T09:00:00-03:00",
+      "total_curtidas": 3,
+      "curtido_pelo_usuario": true,
+      "total_respostas": 0
     }
   ],
   "categorias_denuncia": [
     {
       "id": 1,
-      "nome": "Meta de emergência"
+      "nome": "Spam ou conteúdo repetitivo"
+    },
+    {
+      "id": 2,
+      "nome": "Informação financeira enganosa"
+    },
+    {
+      "id": 3,
+      "nome": "Assédio ou discurso ofensivo"
+    },
+    {
+      "id": 4,
+      "nome": "Conteúdo impróprio"
+    },
+    {
+      "id": 5,
+      "nome": "Possível golpe ou fraude"
+    },
+    {
+      "id": 6,
+      "nome": "Exposição de dados pessoais"
+    },
+    {
+      "id": 7,
+      "nome": "Outro motivo"
     }
   ],
   "denuncias": [
     {
       "id": 1,
-      "post_id": 1,
-      "titulo": "Dica para economizar",
-      "descricao": "Reserva para imprevistos",
+      "post_id": 3,
+      "titulo": "Promessa de retorno sem riscos",
+      "descricao": "A publicação apresenta uma promessa de rendimento sem explicar os riscos envolvidos.",
+      "categoria_id": 2,
+      "data_criacao": "2026-10-17T12:00:00-03:00"
+    },
+    {
+      "id": 2,
+      "post_id": 6,
+      "titulo": "Conteúdo repetitivo",
+      "descricao": "Solicitação de revisão por possível repetição excessiva de conteúdo.",
       "categoria_id": 1,
-      "data_criacao": "2026-10-19T12:00:00-03:00"
+      "data_criacao": "2026-10-15T12:00:00-03:00"
+    },
+    {
+      "id": 3,
+      "post_id": 11,
+      "titulo": "Possível oferta suspeita",
+      "descricao": "A publicação contém uma oferta que merece verificação pela moderação.",
+      "categoria_id": 5,
+      "data_criacao": "2026-10-18T12:00:00-03:00"
+    },
+    {
+      "id": 4,
+      "post_id": 8,
+      "titulo": "Comentário ofensivo",
+      "descricao": "Pedido de avaliação de comentário que pode contrariar as regras da comunidade.",
+      "categoria_id": 3,
+      "data_criacao": "2026-10-14T12:00:00-03:00"
     }
   ],
   "badges": [
     {
       "id": 1,
-      "nome": "Meta de emergência",
-      "descricao": "Reserva para imprevistos",
-      "icone": "Exemplo",
-      "xp": 1
+      "nome": "Perfil completo",
+      "descricao": "Preencha as informações básicas do perfil.",
+      "icone": "user-round-check",
+      "xp": 25
+    },
+    {
+      "id": 2,
+      "nome": "Primeira meta",
+      "descricao": "Crie sua primeira meta financeira.",
+      "icone": "target",
+      "xp": 40
+    },
+    {
+      "id": 3,
+      "nome": "Semana organizada",
+      "descricao": "Revise suas movimentações por sete dias.",
+      "icone": "calendar-check",
+      "xp": 70
+    },
+    {
+      "id": 4,
+      "nome": "Olho nas despesas",
+      "descricao": "Identifique uma oportunidade de economia.",
+      "icone": "piggy-bank",
+      "xp": 90
+    },
+    {
+      "id": 5,
+      "nome": "Primeira publicação",
+      "descricao": "Compartilhe uma dúvida ou aprendizado na comunidade.",
+      "icone": "messages-square",
+      "xp": 30
+    },
+    {
+      "id": 6,
+      "nome": "Boa vizinhança",
+      "descricao": "Ajude alguém com uma resposta construtiva.",
+      "icone": "handshake",
+      "xp": 60
+    },
+    {
+      "id": 7,
+      "nome": "Simulador explorador",
+      "descricao": "Crie sua primeira simulação de investimento.",
+      "icone": "chart-no-axes-combined",
+      "xp": 50
+    },
+    {
+      "id": 8,
+      "nome": "Mês consciente",
+      "descricao": "Revise o orçamento durante quatro semanas.",
+      "icone": "trophy",
+      "xp": 150
+    },
+    {
+      "id": 9,
+      "nome": "Categorias em dia",
+      "descricao": "Organize as principais categorias de despesas.",
+      "icone": "list-check",
+      "xp": 45
+    },
+    {
+      "id": 10,
+      "nome": "Planejamento ativo",
+      "descricao": "Compare cenários antes de uma decisão financeira.",
+      "icone": "compass",
+      "xp": 35
+    },
+    {
+      "id": 11,
+      "nome": "Interação positiva",
+      "descricao": "Interaja com diferentes publicações da comunidade.",
+      "icone": "users",
+      "xp": 80
+    },
+    {
+      "id": 12,
+      "nome": "Objetivo concluído",
+      "descricao": "Marque uma meta financeira como concluída.",
+      "icone": "flag",
+      "xp": 200
     }
   ],
   "badges_usuarios": [
     {
       "badge": {
         "id": 1,
-        "nome": "Meta de emergência",
-        "descricao": "Reserva para imprevistos",
-        "icone": "Exemplo",
-        "xp": 1
+        "nome": "Perfil completo",
+        "descricao": "Preencha as informações básicas do perfil.",
+        "icone": "user-round-check",
+        "xp": 25
       },
-      "data_conquista": "2026-10-19T12:00:00-03:00",
+      "data_conquista": "2026-10-17T12:00:00-03:00",
       "id": 1
+    },
+    {
+      "badge": {
+        "id": 2,
+        "nome": "Primeira meta",
+        "descricao": "Crie sua primeira meta financeira.",
+        "icone": "target",
+        "xp": 40
+      },
+      "data_conquista": "2026-10-15T12:00:00-03:00",
+      "id": 2
+    },
+    {
+      "badge": {
+        "id": 3,
+        "nome": "Semana organizada",
+        "descricao": "Revise suas movimentações por sete dias.",
+        "icone": "calendar-check",
+        "xp": 70
+      },
+      "data_conquista": "2026-10-13T12:00:00-03:00",
+      "id": 3
+    },
+    {
+      "badge": {
+        "id": 4,
+        "nome": "Olho nas despesas",
+        "descricao": "Identifique uma oportunidade de economia.",
+        "icone": "piggy-bank",
+        "xp": 90
+      },
+      "data_conquista": "2026-10-11T12:00:00-03:00",
+      "id": 4
+    },
+    {
+      "badge": {
+        "id": 5,
+        "nome": "Primeira publicação",
+        "descricao": "Compartilhe uma dúvida ou aprendizado na comunidade.",
+        "icone": "messages-square",
+        "xp": 30
+      },
+      "data_conquista": "2026-10-09T12:00:00-03:00",
+      "id": 5
+    },
+    {
+      "badge": {
+        "id": 6,
+        "nome": "Boa vizinhança",
+        "descricao": "Ajude alguém com uma resposta construtiva.",
+        "icone": "handshake",
+        "xp": 60
+      },
+      "data_conquista": "2026-10-07T12:00:00-03:00",
+      "id": 6
+    },
+    {
+      "badge": {
+        "id": 7,
+        "nome": "Simulador explorador",
+        "descricao": "Crie sua primeira simulação de investimento.",
+        "icone": "chart-no-axes-combined",
+        "xp": 50
+      },
+      "data_conquista": "2026-10-05T12:00:00-03:00",
+      "id": 7
+    },
+    {
+      "badge": {
+        "id": 8,
+        "nome": "Mês consciente",
+        "descricao": "Revise o orçamento durante quatro semanas.",
+        "icone": "trophy",
+        "xp": 150
+      },
+      "data_conquista": "2026-10-03T12:00:00-03:00",
+      "id": 8
+    },
+    {
+      "badge": {
+        "id": 9,
+        "nome": "Categorias em dia",
+        "descricao": "Organize as principais categorias de despesas.",
+        "icone": "list-check",
+        "xp": 45
+      },
+      "data_conquista": "2026-10-01T12:00:00-03:00",
+      "id": 9
+    },
+    {
+      "badge": {
+        "id": 10,
+        "nome": "Planejamento ativo",
+        "descricao": "Compare cenários antes de uma decisão financeira.",
+        "icone": "compass",
+        "xp": 35
+      },
+      "data_conquista": "2026-09-29T12:00:00-03:00",
+      "id": 10
+    },
+    {
+      "badge": {
+        "id": 11,
+        "nome": "Interação positiva",
+        "descricao": "Interaja com diferentes publicações da comunidade.",
+        "icone": "users",
+        "xp": 80
+      },
+      "data_conquista": "2026-09-27T12:00:00-03:00",
+      "id": 11
+    },
+    {
+      "badge": {
+        "id": 12,
+        "nome": "Objetivo concluído",
+        "descricao": "Marque uma meta financeira como concluída.",
+        "icone": "flag",
+        "xp": 200
+      },
+      "data_conquista": "2026-09-25T12:00:00-03:00",
+      "id": 12
+    },
+    {
+      "badge": {
+        "id": 1,
+        "nome": "Perfil completo",
+        "descricao": "Preencha as informações básicas do perfil.",
+        "icone": "user-round-check",
+        "xp": 25
+      },
+      "data_conquista": "2026-09-23T12:00:00-03:00",
+      "id": 13
+    },
+    {
+      "badge": {
+        "id": 2,
+        "nome": "Primeira meta",
+        "descricao": "Crie sua primeira meta financeira.",
+        "icone": "target",
+        "xp": 40
+      },
+      "data_conquista": "2026-09-21T12:00:00-03:00",
+      "id": 14
+    },
+    {
+      "badge": {
+        "id": 3,
+        "nome": "Semana organizada",
+        "descricao": "Revise suas movimentações por sete dias.",
+        "icone": "calendar-check",
+        "xp": 70
+      },
+      "data_conquista": "2026-09-19T12:00:00-03:00",
+      "id": 15
+    },
+    {
+      "badge": {
+        "id": 4,
+        "nome": "Olho nas despesas",
+        "descricao": "Identifique uma oportunidade de economia.",
+        "icone": "piggy-bank",
+        "xp": 90
+      },
+      "data_conquista": "2026-09-17T12:00:00-03:00",
+      "id": 16
     }
   ],
   "ranking": [
     {
       "posicao": 1,
-      "pontos_total": 1,
+      "pontos_total": 1360,
+      "usuario": {
+        "id": 3,
+        "nome_exibicao": "Lucas Martins",
+        "username_social": "lucasmartins",
+        "foto_perfil": "https://i.pravatar.cc/150?img=11"
+      },
+      "id": 1
+    },
+    {
+      "posicao": 2,
+      "pontos_total": 1215,
+      "usuario": {
+        "id": 6,
+        "nome_exibicao": "Juliana Alves",
+        "username_social": "ju.alves",
+        "foto_perfil": "https://i.pravatar.cc/150?img=49"
+      },
+      "id": 2
+    },
+    {
+      "posicao": 3,
+      "pontos_total": 1050,
+      "usuario": {
+        "id": 2,
+        "nome_exibicao": "Ana Souza",
+        "username_social": "anasouza",
+        "foto_perfil": "https://i.pravatar.cc/150?img=47"
+      },
+      "id": 3
+    },
+    {
+      "posicao": 4,
+      "pontos_total": 920,
       "usuario": {
         "id": 1,
         "nome_exibicao": "Murilo",
-        "username_social": "Exemplo",
-        "foto_perfil": "Exemplo"
+        "username_social": "murilo.dev",
+        "foto_perfil": "https://i.pravatar.cc/150?img=12"
       },
-      "id": 1
+      "id": 4
+    },
+    {
+      "posicao": 5,
+      "pontos_total": 810,
+      "usuario": {
+        "id": 8,
+        "nome_exibicao": "Camila Rocha",
+        "username_social": "camilarocha",
+        "foto_perfil": "https://i.pravatar.cc/150?img=45"
+      },
+      "id": 5
+    },
+    {
+      "posicao": 6,
+      "pontos_total": 735,
+      "usuario": {
+        "id": 4,
+        "nome_exibicao": "Beatriz Lima",
+        "username_social": "bia.lima",
+        "foto_perfil": "https://i.pravatar.cc/150?img=44"
+      },
+      "id": 6
+    },
+    {
+      "posicao": 7,
+      "pontos_total": 660,
+      "usuario": {
+        "id": 5,
+        "nome_exibicao": "Rafael Costa",
+        "username_social": "rafa.costa",
+        "foto_perfil": "https://i.pravatar.cc/150?img=13"
+      },
+      "id": 7
+    },
+    {
+      "posicao": 8,
+      "pontos_total": 575,
+      "usuario": {
+        "id": 7,
+        "nome_exibicao": "Pedro Henrique",
+        "username_social": "pedro.h",
+        "foto_perfil": "https://i.pravatar.cc/150?img=14"
+      },
+      "id": 8
     }
   ],
   "chats": [
     {
       "id": 1,
-      "nome": "Meta de emergência",
-      "data_criacao": "2026-10-19T12:00:00-03:00"
+      "nome": "Organização do orçamento",
+      "data_criacao": "2026-10-15T12:00:00-03:00"
+    },
+    {
+      "id": 2,
+      "nome": "Meta do intercâmbio",
+      "data_criacao": "2026-10-11T12:00:00-03:00"
+    },
+    {
+      "id": 3,
+      "nome": "Primeiros passos nos investimentos",
+      "data_criacao": "2026-10-07T12:00:00-03:00"
+    },
+    {
+      "id": 4,
+      "nome": "Revisão de despesas",
+      "data_criacao": "2026-10-03T12:00:00-03:00"
+    },
+    {
+      "id": 5,
+      "nome": "Financiamento do apartamento",
+      "data_criacao": "2026-09-29T12:00:00-03:00"
+    },
+    {
+      "id": 6,
+      "nome": "Reserva de emergência",
+      "data_criacao": "2026-09-25T12:00:00-03:00"
+    },
+    {
+      "id": 7,
+      "nome": "Planejamento do cartão",
+      "data_criacao": "2026-09-21T12:00:00-03:00"
     }
   ],
   "mensagens": [
@@ -203,116 +1682,2012 @@
       "id": 1,
       "chat_id": 1,
       "papel": "usuario",
-      "conteudo": "Revise suas despesas recorrentes.",
-      "data_envio": "2026-10-19T12:00:00-03:00"
+      "conteudo": "Quero entender melhor para onde vai meu dinheiro todo mês.",
+      "data_envio": "2026-10-18T11:00:00-03:00"
+    },
+    {
+      "id": 2,
+      "chat_id": 1,
+      "papel": "assistente",
+      "conteudo": "Comece agrupando suas movimentações em despesas fixas, variáveis, receitas e transferências. Depois compare o total de cada grupo.",
+      "data_envio": "2026-10-17T10:00:00-03:00"
+    },
+    {
+      "id": 3,
+      "chat_id": 1,
+      "papel": "usuario",
+      "conteudo": "Tenho gastos com moradia, transporte, alimentação e cursos.",
+      "data_envio": "2026-10-16T09:00:00-03:00"
+    },
+    {
+      "id": 4,
+      "chat_id": 1,
+      "papel": "assistente",
+      "conteudo": "Registre os valores por algumas semanas e identifique quais são essenciais. Defina metas realistas antes de fazer cortes.",
+      "data_envio": "2026-10-15T08:00:00-03:00"
+    },
+    {
+      "id": 5,
+      "chat_id": 2,
+      "papel": "usuario",
+      "conteudo": "Quero guardar dinheiro para um intercâmbio em dois anos.",
+      "data_envio": "2026-10-14T07:00:00-03:00"
+    },
+    {
+      "id": 6,
+      "chat_id": 2,
+      "papel": "assistente",
+      "conteudo": "Estime o custo total, desconte o valor que já tem e divida o restante pelo número de meses. Revise o plano se os custos mudarem.",
+      "data_envio": "2026-10-13T06:00:00-03:00"
+    },
+    {
+      "id": 7,
+      "chat_id": 3,
+      "papel": "usuario",
+      "conteudo": "O que comparar em uma aplicação para objetivos de curto prazo?",
+      "data_envio": "2026-10-12T05:00:00-03:00"
+    },
+    {
+      "id": 8,
+      "chat_id": 3,
+      "papel": "assistente",
+      "conteudo": "Observe risco, liquidez, prazo, tributação e custos. Escolha produtos compatíveis com a data em que pretende usar o dinheiro.",
+      "data_envio": "2026-10-11T04:00:00-03:00"
+    },
+    {
+      "id": 9,
+      "chat_id": 4,
+      "papel": "usuario",
+      "conteudo": "Como encontro gastos que posso reduzir sem afetar o essencial?",
+      "data_envio": "2026-10-10T03:00:00-03:00"
+    },
+    {
+      "id": 10,
+      "chat_id": 4,
+      "papel": "assistente",
+      "conteudo": "Compare as categorias por alguns meses e procure cobranças recorrentes, taxas e despesas variáveis que não agregam tanto valor.",
+      "data_envio": "2026-10-09T12:00:00-03:00"
+    },
+    {
+      "id": 11,
+      "chat_id": 5,
+      "papel": "usuario",
+      "conteudo": "Quero entender se vale amortizar o financiamento.",
+      "data_envio": "2026-10-08T11:00:00-03:00"
+    },
+    {
+      "id": 12,
+      "chat_id": 5,
+      "papel": "assistente",
+      "conteudo": "Solicite ao credor uma simulação oficial e compare o custo efetivo, o saldo, o prazo e as condições de amortização.",
+      "data_envio": "2026-10-07T10:00:00-03:00"
+    },
+    {
+      "id": 13,
+      "chat_id": 6,
+      "papel": "usuario",
+      "conteudo": "Qual seria um bom começo para uma reserva de emergência?",
+      "data_envio": "2026-10-06T09:00:00-03:00"
+    },
+    {
+      "id": 14,
+      "chat_id": 6,
+      "papel": "assistente",
+      "conteudo": "Calcule suas despesas essenciais mensais e defina uma primeira meta alcançável. Priorize acesso ao dinheiro e compatibilidade com seu perfil.",
+      "data_envio": "2026-10-05T08:00:00-03:00"
+    },
+    {
+      "id": 15,
+      "chat_id": 7,
+      "papel": "usuario",
+      "conteudo": "Como posso organizar as compras parceladas?",
+      "data_envio": "2026-10-04T07:00:00-03:00"
+    },
+    {
+      "id": 16,
+      "chat_id": 7,
+      "papel": "assistente",
+      "conteudo": "Liste cada parcela por mês e some os compromissos futuros. Antes de comprar, confira quanto da renda já estará comprometido.",
+      "data_envio": "2026-10-03T06:00:00-03:00"
     }
   ],
   "categorias_recomendacao": [
     {
       "id": 1,
-      "nome": "Meta de emergência"
+      "nome": "Economia doméstica"
+    },
+    {
+      "id": 2,
+      "nome": "Orçamento mensal"
+    },
+    {
+      "id": 3,
+      "nome": "Investimentos"
+    },
+    {
+      "id": 4,
+      "nome": "Dívidas e financiamentos"
+    },
+    {
+      "id": 5,
+      "nome": "Cartões"
+    },
+    {
+      "id": 6,
+      "nome": "Metas financeiras"
+    },
+    {
+      "id": 7,
+      "nome": "Segurança financeira"
+    },
+    {
+      "id": 8,
+      "nome": "Consumo consciente"
     }
   ],
   "recomendacoes_ia": [
     {
       "id": 1,
-      "titulo": "Dica para economizar",
-      "descricao": "Reserva para imprevistos",
-      "impacto": "Exemplo",
-      "data_criacao": "2026-10-19T12:00:00-03:00",
+      "titulo": "Revise serviços recorrentes",
+      "descricao": "Confira as assinaturas e os planos que utiliza pouco. Compare alternativas antes de cancelar ou trocar.",
+      "impacto": "possível redução de gastos",
+      "data_criacao": "2026-10-17T12:00:00-03:00",
+      "status": "aceita",
+      "categoria": {
+        "id": 1,
+        "nome": "Economia doméstica"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Planeje compras de mercado",
+      "descricao": "Uma lista de compras e um cardápio semanal podem reduzir desperdício e compras não planejadas.",
+      "impacto": "mais previsibilidade",
+      "data_criacao": "2026-10-15T12:00:00-03:00",
+      "status": "ignorada",
+      "categoria": {
+        "id": 2,
+        "nome": "Orçamento mensal"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Construa sua reserva gradualmente",
+      "descricao": "Defina uma meta inicial e aumente os aportes conforme sua renda permitir. Considere liquidez e risco.",
+      "impacto": "mais proteção financeira",
+      "data_criacao": "2026-10-13T12:00:00-03:00",
+      "status": "pendente",
+      "categoria": {
+        "id": 7,
+        "nome": "Segurança financeira"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Compare o custo do financiamento",
+      "descricao": "Peça simulações atualizadas e compare taxa efetiva, prazo, tarifas e condições de amortização.",
+      "impacto": "melhor compreensão dos juros",
+      "data_criacao": "2026-10-11T12:00:00-03:00",
+      "status": "pendente",
+      "categoria": {
+        "id": 4,
+        "nome": "Dívidas e financiamentos"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Acompanhe parcelas futuras",
+      "descricao": "Consolide os compromissos de cartão dos próximos meses para evitar assumir mais parcelas do que cabe no orçamento.",
+      "impacto": "controle do orçamento",
+      "data_criacao": "2026-10-09T12:00:00-03:00",
+      "status": "aceita",
+      "categoria": {
+        "id": 5,
+        "nome": "Cartões"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Automatize a meta de intercâmbio",
+      "descricao": "Agende um aporte mensal e revise o valor sempre que houver mudanças relevantes nos custos previstos.",
+      "impacto": "consistência nos aportes",
+      "data_criacao": "2026-10-07T12:00:00-03:00",
+      "status": "ignorada",
+      "categoria": {
+        "id": 6,
+        "nome": "Metas financeiras"
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "Categorize despesas variáveis",
+      "descricao": "Separar alimentação, transporte, lazer e compras pode revelar tendências que passam despercebidas.",
+      "impacto": "mais clareza",
+      "data_criacao": "2026-10-05T12:00:00-03:00",
+      "status": "pendente",
+      "categoria": {
+        "id": 2,
+        "nome": "Orçamento mensal"
+      }
+    },
+    {
+      "id": 8,
+      "titulo": "Considere liquidez e prazo",
+      "descricao": "Para cada objetivo, verifique quando o dinheiro será necessário e se o investimento permite resgate adequado.",
+      "impacto": "decisões mais alinhadas",
+      "data_criacao": "2026-10-03T12:00:00-03:00",
+      "status": "pendente",
+      "categoria": {
+        "id": 3,
+        "nome": "Investimentos"
+      }
+    },
+    {
+      "id": 9,
+      "titulo": "Crie uma pausa antes de comprar",
+      "descricao": "Espere um período antes de compras não planejadas e compare preço, necessidade e impacto no orçamento.",
+      "impacto": "menos compras impulsivas",
+      "data_criacao": "2026-10-01T12:00:00-03:00",
+      "status": "aceita",
+      "categoria": {
+        "id": 8,
+        "nome": "Consumo consciente"
+      }
+    },
+    {
+      "id": 10,
+      "titulo": "Faça uma revisão semanal",
+      "descricao": "Reserve alguns minutos para conferir movimentações, contas próximas e progresso das metas.",
+      "impacto": "organização contínua",
+      "data_criacao": "2026-09-29T12:00:00-03:00",
+      "status": "ignorada",
+      "categoria": {
+        "id": 2,
+        "nome": "Orçamento mensal"
+      }
+    },
+    {
+      "id": 11,
+      "titulo": "Confira tarifas e pacotes",
+      "descricao": "Revise tarifas bancárias e serviços contratados e consulte as condições diretamente com a instituição.",
+      "impacto": "potencial economia",
+      "data_criacao": "2026-09-27T12:00:00-03:00",
       "status": "pendente",
       "categoria": {
         "id": 1,
-        "nome": "Meta de emergência"
+        "nome": "Economia doméstica"
+      }
+    },
+    {
+      "id": 12,
+      "titulo": "Preserve uma margem mensal",
+      "descricao": "Evite comprometer toda a renda prevista; despesas inesperadas podem exigir flexibilidade.",
+      "impacto": "mais resiliência",
+      "data_criacao": "2026-09-25T12:00:00-03:00",
+      "status": "pendente",
+      "categoria": {
+        "id": 7,
+        "nome": "Segurança financeira"
       }
     }
   ],
   "contas_financeiras": [
     {
-      "id_externo": "Exemplo",
+      "id_externo": "demo_account_001",
       "conexao_id": 1,
-      "instituicao_nome": "Exemplo",
-      "tipo": "informativa",
-      "nome": "Meta de emergência",
-      "saldo": 0,
+      "instituicao_nome": "Nubank",
+      "tipo": "corrente",
+      "nome": "Conta principal",
+      "saldo": 17053.59,
       "id": 1
+    },
+    {
+      "id_externo": "demo_account_002",
+      "conexao_id": 2,
+      "instituicao_nome": "Banco Inter",
+      "tipo": "pagamento",
+      "nome": "Conta de pagamentos",
+      "saldo": 16416.26,
+      "id": 2
+    },
+    {
+      "id_externo": "demo_account_003",
+      "conexao_id": 3,
+      "instituicao_nome": "Itaú Unibanco",
+      "tipo": "pagamento",
+      "nome": "Conta de pagamentos",
+      "saldo": 18013.15,
+      "id": 3
+    },
+    {
+      "id_externo": "demo_account_004",
+      "conexao_id": 4,
+      "instituicao_nome": "Banco do Brasil",
+      "tipo": "poupanca",
+      "nome": "Reserva de curto prazo",
+      "saldo": 4748.65,
+      "id": 4
+    },
+    {
+      "id_externo": "demo_account_005",
+      "conexao_id": 1,
+      "instituicao_nome": "Caixa Econômica Federal",
+      "tipo": "poupanca",
+      "nome": "Reserva de curto prazo",
+      "saldo": 1456.39,
+      "id": 5
+    },
+    {
+      "id_externo": "demo_account_006",
+      "conexao_id": 2,
+      "instituicao_nome": "Santander",
+      "tipo": "investimento",
+      "nome": "Conta de investimentos",
+      "saldo": 18917.68,
+      "id": 6
+    },
+    {
+      "id_externo": "demo_account_007",
+      "conexao_id": 3,
+      "instituicao_nome": "C6 Bank",
+      "tipo": "investimento",
+      "nome": "Conta de investimentos",
+      "saldo": 10940.02,
+      "id": 7
+    },
+    {
+      "id_externo": "demo_account_008",
+      "conexao_id": 4,
+      "instituicao_nome": "BTG Pactual",
+      "tipo": "corrente",
+      "nome": "Conta secundária",
+      "saldo": 3333.21,
+      "id": 8
+    },
+    {
+      "id_externo": "demo_account_009",
+      "conexao_id": 1,
+      "instituicao_nome": "Nubank",
+      "tipo": "corrente",
+      "nome": "Conta secundária",
+      "saldo": 7156.9,
+      "id": 9
+    },
+    {
+      "id_externo": "demo_account_010",
+      "conexao_id": 2,
+      "instituicao_nome": "Banco Inter",
+      "tipo": "pagamento",
+      "nome": "Conta digital",
+      "saldo": 4551.14,
+      "id": 10
+    },
+    {
+      "id_externo": "demo_account_011",
+      "conexao_id": 3,
+      "instituicao_nome": "Itaú Unibanco",
+      "tipo": "pagamento",
+      "nome": "Conta digital",
+      "saldo": 5483.63,
+      "id": 11
+    },
+    {
+      "id_externo": "demo_account_012",
+      "conexao_id": 4,
+      "instituicao_nome": "Banco do Brasil",
+      "tipo": "poupanca",
+      "nome": "Conta principal",
+      "saldo": 2068.35,
+      "id": 12
     }
   ],
   "transacoes_financeiras": [
     {
-      "id_externo": "Exemplo",
+      "id_externo": "demo_transaction_0001",
       "conexao_id": 1,
-      "conta_id_externo": "Exemplo",
-      "tipo": "receita",
-      "valor": 0,
-      "data": "2026-12-31",
-      "descricao": "Reserva para imprevistos",
-      "categoria": "Exemplo",
+      "conta_id_externo": "demo_account_001",
+      "tipo": "despesa",
+      "valor": 187.83,
+      "data": "2026-10-16",
+      "descricao": "Compra de mercado",
+      "categoria": "Alimentação",
       "id": 1
+    },
+    {
+      "id_externo": "demo_transaction_0002",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_002",
+      "tipo": "despesa",
+      "valor": 552.27,
+      "data": "2026-10-13",
+      "descricao": "Crédito de salário",
+      "categoria": "Moradia",
+      "id": 2
+    },
+    {
+      "id_externo": "demo_transaction_0003",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_003",
+      "tipo": "despesa",
+      "valor": 180.71,
+      "data": "2026-10-10",
+      "descricao": "Transporte por aplicativo",
+      "categoria": "Transporte",
+      "id": 3
+    },
+    {
+      "id_externo": "demo_transaction_0004",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_004",
+      "tipo": "despesa",
+      "valor": 48.04,
+      "data": "2026-10-07",
+      "descricao": "Plano de internet",
+      "categoria": "Saúde",
+      "id": 4
+    },
+    {
+      "id_externo": "demo_transaction_0005",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_005",
+      "tipo": "despesa",
+      "valor": 135.63,
+      "data": "2026-10-04",
+      "descricao": "Conta de energia",
+      "categoria": "Educação",
+      "id": 5
+    },
+    {
+      "id_externo": "demo_transaction_0006",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_006",
+      "tipo": "despesa",
+      "valor": 793.47,
+      "data": "2026-10-01",
+      "descricao": "Assinatura de streaming",
+      "categoria": "Lazer",
+      "id": 6
+    },
+    {
+      "id_externo": "demo_transaction_0007",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_007",
+      "tipo": "despesa",
+      "valor": 610.67,
+      "data": "2026-09-28",
+      "descricao": "Almoço durante a semana",
+      "categoria": "Assinaturas",
+      "id": 7
+    },
+    {
+      "id_externo": "demo_transaction_0008",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_008",
+      "tipo": "despesa",
+      "valor": 226.04,
+      "data": "2026-09-25",
+      "descricao": "Compra em farmácia",
+      "categoria": "Compras",
+      "id": 8
+    },
+    {
+      "id_externo": "demo_transaction_0009",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_009",
+      "tipo": "receita",
+      "valor": 2997.28,
+      "data": "2026-09-22",
+      "descricao": "Mensalidade de curso",
+      "categoria": "Salário",
+      "id": 9
+    },
+    {
+      "id_externo": "demo_transaction_0010",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_010",
+      "tipo": "receita",
+      "valor": 6972.67,
+      "data": "2026-09-19",
+      "descricao": "Transferência para meta",
+      "categoria": "Renda extra",
+      "id": 10
+    },
+    {
+      "id_externo": "demo_transaction_0011",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_011",
+      "tipo": "transferencia",
+      "valor": 926.19,
+      "data": "2026-09-16",
+      "descricao": "Material de estudo",
+      "categoria": "Transferência",
+      "id": 11
+    },
+    {
+      "id_externo": "demo_transaction_0012",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_012",
+      "tipo": "transferencia",
+      "valor": 215.81,
+      "data": "2026-09-13",
+      "descricao": "Mensalidade de academia",
+      "categoria": "Investimentos",
+      "id": 12
+    },
+    {
+      "id_externo": "demo_transaction_0013",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_001",
+      "tipo": "despesa",
+      "valor": 564.47,
+      "data": "2026-09-10",
+      "descricao": "Restaurante",
+      "categoria": "Internet",
+      "id": 13
+    },
+    {
+      "id_externo": "demo_transaction_0014",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_002",
+      "tipo": "despesa",
+      "valor": 753.34,
+      "data": "2026-09-07",
+      "descricao": "Recebimento de trabalho extra",
+      "categoria": "Energia",
+      "id": 14
+    },
+    {
+      "id_externo": "demo_transaction_0015",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_003",
+      "tipo": "despesa",
+      "valor": 598.67,
+      "data": "2026-09-04",
+      "descricao": "Pagamento de aluguel",
+      "categoria": "Mercado",
+      "id": 15
+    },
+    {
+      "id_externo": "demo_transaction_0016",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_004",
+      "tipo": "despesa",
+      "valor": 811.02,
+      "data": "2026-09-01",
+      "descricao": "Recarga de transporte",
+      "categoria": "Alimentação",
+      "id": 16
+    },
+    {
+      "id_externo": "demo_transaction_0017",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_005",
+      "tipo": "despesa",
+      "valor": 655.45,
+      "data": "2026-08-29",
+      "descricao": "Compra parcelada",
+      "categoria": "Moradia",
+      "id": 17
+    },
+    {
+      "id_externo": "demo_transaction_0018",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_006",
+      "tipo": "despesa",
+      "valor": 651.7,
+      "data": "2026-08-26",
+      "descricao": "Aplicação financeira",
+      "categoria": "Transporte",
+      "id": 18
+    },
+    {
+      "id_externo": "demo_transaction_0019",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_007",
+      "tipo": "despesa",
+      "valor": 82.68,
+      "data": "2026-08-23",
+      "descricao": "Compra de mercado",
+      "categoria": "Saúde",
+      "id": 19
+    },
+    {
+      "id_externo": "demo_transaction_0020",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_008",
+      "tipo": "despesa",
+      "valor": 479.04,
+      "data": "2026-10-19",
+      "descricao": "Crédito de salário",
+      "categoria": "Educação",
+      "id": 20
+    },
+    {
+      "id_externo": "demo_transaction_0021",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_009",
+      "tipo": "despesa",
+      "valor": 47.11,
+      "data": "2026-10-16",
+      "descricao": "Transporte por aplicativo",
+      "categoria": "Lazer",
+      "id": 21
+    },
+    {
+      "id_externo": "demo_transaction_0022",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_010",
+      "tipo": "despesa",
+      "valor": 818.72,
+      "data": "2026-10-13",
+      "descricao": "Plano de internet",
+      "categoria": "Assinaturas",
+      "id": 22
+    },
+    {
+      "id_externo": "demo_transaction_0023",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_011",
+      "tipo": "despesa",
+      "valor": 816.51,
+      "data": "2026-10-10",
+      "descricao": "Conta de energia",
+      "categoria": "Compras",
+      "id": 23
+    },
+    {
+      "id_externo": "demo_transaction_0024",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_012",
+      "tipo": "receita",
+      "valor": 1705.62,
+      "data": "2026-10-07",
+      "descricao": "Assinatura de streaming",
+      "categoria": "Salário",
+      "id": 24
+    },
+    {
+      "id_externo": "demo_transaction_0025",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_001",
+      "tipo": "receita",
+      "valor": 6695.12,
+      "data": "2026-10-04",
+      "descricao": "Almoço durante a semana",
+      "categoria": "Renda extra",
+      "id": 25
+    },
+    {
+      "id_externo": "demo_transaction_0026",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_002",
+      "tipo": "transferencia",
+      "valor": 182.23,
+      "data": "2026-10-01",
+      "descricao": "Compra em farmácia",
+      "categoria": "Transferência",
+      "id": 26
+    },
+    {
+      "id_externo": "demo_transaction_0027",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_003",
+      "tipo": "transferencia",
+      "valor": 551.21,
+      "data": "2026-09-28",
+      "descricao": "Mensalidade de curso",
+      "categoria": "Investimentos",
+      "id": 27
+    },
+    {
+      "id_externo": "demo_transaction_0028",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_004",
+      "tipo": "despesa",
+      "valor": 777.27,
+      "data": "2026-09-25",
+      "descricao": "Transferência para meta",
+      "categoria": "Internet",
+      "id": 28
+    },
+    {
+      "id_externo": "demo_transaction_0029",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_005",
+      "tipo": "despesa",
+      "valor": 82.45,
+      "data": "2026-09-22",
+      "descricao": "Material de estudo",
+      "categoria": "Energia",
+      "id": 29
+    },
+    {
+      "id_externo": "demo_transaction_0030",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_006",
+      "tipo": "despesa",
+      "valor": 44.47,
+      "data": "2026-09-19",
+      "descricao": "Mensalidade de academia",
+      "categoria": "Mercado",
+      "id": 30
+    },
+    {
+      "id_externo": "demo_transaction_0031",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_007",
+      "tipo": "despesa",
+      "valor": 84.21,
+      "data": "2026-09-16",
+      "descricao": "Restaurante",
+      "categoria": "Alimentação",
+      "id": 31
+    },
+    {
+      "id_externo": "demo_transaction_0032",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_008",
+      "tipo": "despesa",
+      "valor": 162.91,
+      "data": "2026-09-13",
+      "descricao": "Recebimento de trabalho extra",
+      "categoria": "Moradia",
+      "id": 32
+    },
+    {
+      "id_externo": "demo_transaction_0033",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_009",
+      "tipo": "despesa",
+      "valor": 81.66,
+      "data": "2026-09-10",
+      "descricao": "Pagamento de aluguel",
+      "categoria": "Transporte",
+      "id": 33
+    },
+    {
+      "id_externo": "demo_transaction_0034",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_010",
+      "tipo": "despesa",
+      "valor": 570.61,
+      "data": "2026-09-07",
+      "descricao": "Recarga de transporte",
+      "categoria": "Saúde",
+      "id": 34
+    },
+    {
+      "id_externo": "demo_transaction_0035",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_011",
+      "tipo": "despesa",
+      "valor": 162.24,
+      "data": "2026-09-04",
+      "descricao": "Compra parcelada",
+      "categoria": "Educação",
+      "id": 35
+    },
+    {
+      "id_externo": "demo_transaction_0036",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_012",
+      "tipo": "despesa",
+      "valor": 455.39,
+      "data": "2026-09-01",
+      "descricao": "Aplicação financeira",
+      "categoria": "Lazer",
+      "id": 36
+    },
+    {
+      "id_externo": "demo_transaction_0037",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_001",
+      "tipo": "despesa",
+      "valor": 333.91,
+      "data": "2026-08-29",
+      "descricao": "Compra de mercado",
+      "categoria": "Assinaturas",
+      "id": 37
+    },
+    {
+      "id_externo": "demo_transaction_0038",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_002",
+      "tipo": "despesa",
+      "valor": 445.71,
+      "data": "2026-08-26",
+      "descricao": "Crédito de salário",
+      "categoria": "Compras",
+      "id": 38
+    },
+    {
+      "id_externo": "demo_transaction_0039",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_003",
+      "tipo": "receita",
+      "valor": 3653.6,
+      "data": "2026-08-23",
+      "descricao": "Transporte por aplicativo",
+      "categoria": "Salário",
+      "id": 39
+    },
+    {
+      "id_externo": "demo_transaction_0040",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_004",
+      "tipo": "receita",
+      "valor": 4393.82,
+      "data": "2026-10-19",
+      "descricao": "Plano de internet",
+      "categoria": "Renda extra",
+      "id": 40
+    },
+    {
+      "id_externo": "demo_transaction_0041",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_005",
+      "tipo": "transferencia",
+      "valor": 646.74,
+      "data": "2026-10-16",
+      "descricao": "Conta de energia",
+      "categoria": "Transferência",
+      "id": 41
+    },
+    {
+      "id_externo": "demo_transaction_0042",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_006",
+      "tipo": "transferencia",
+      "valor": 394.83,
+      "data": "2026-10-13",
+      "descricao": "Assinatura de streaming",
+      "categoria": "Investimentos",
+      "id": 42
+    },
+    {
+      "id_externo": "demo_transaction_0043",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_007",
+      "tipo": "despesa",
+      "valor": 177.2,
+      "data": "2026-10-10",
+      "descricao": "Almoço durante a semana",
+      "categoria": "Internet",
+      "id": 43
+    },
+    {
+      "id_externo": "demo_transaction_0044",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_008",
+      "tipo": "despesa",
+      "valor": 536.82,
+      "data": "2026-10-07",
+      "descricao": "Compra em farmácia",
+      "categoria": "Energia",
+      "id": 44
+    },
+    {
+      "id_externo": "demo_transaction_0045",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_009",
+      "tipo": "despesa",
+      "valor": 235.86,
+      "data": "2026-10-04",
+      "descricao": "Mensalidade de curso",
+      "categoria": "Mercado",
+      "id": 45
+    },
+    {
+      "id_externo": "demo_transaction_0046",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_010",
+      "tipo": "despesa",
+      "valor": 396.82,
+      "data": "2026-10-01",
+      "descricao": "Transferência para meta",
+      "categoria": "Alimentação",
+      "id": 46
+    },
+    {
+      "id_externo": "demo_transaction_0047",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_011",
+      "tipo": "despesa",
+      "valor": 376.37,
+      "data": "2026-09-28",
+      "descricao": "Material de estudo",
+      "categoria": "Moradia",
+      "id": 47
+    },
+    {
+      "id_externo": "demo_transaction_0048",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_012",
+      "tipo": "despesa",
+      "valor": 380.74,
+      "data": "2026-09-25",
+      "descricao": "Mensalidade de academia",
+      "categoria": "Transporte",
+      "id": 48
+    },
+    {
+      "id_externo": "demo_transaction_0049",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_001",
+      "tipo": "despesa",
+      "valor": 368.5,
+      "data": "2026-09-22",
+      "descricao": "Restaurante",
+      "categoria": "Saúde",
+      "id": 49
+    },
+    {
+      "id_externo": "demo_transaction_0050",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_002",
+      "tipo": "despesa",
+      "valor": 183.05,
+      "data": "2026-09-19",
+      "descricao": "Recebimento de trabalho extra",
+      "categoria": "Educação",
+      "id": 50
+    },
+    {
+      "id_externo": "demo_transaction_0051",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_003",
+      "tipo": "despesa",
+      "valor": 705.05,
+      "data": "2026-09-16",
+      "descricao": "Pagamento de aluguel",
+      "categoria": "Lazer",
+      "id": 51
+    },
+    {
+      "id_externo": "demo_transaction_0052",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_004",
+      "tipo": "despesa",
+      "valor": 430.62,
+      "data": "2026-09-13",
+      "descricao": "Recarga de transporte",
+      "categoria": "Assinaturas",
+      "id": 52
+    },
+    {
+      "id_externo": "demo_transaction_0053",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_005",
+      "tipo": "despesa",
+      "valor": 58.91,
+      "data": "2026-09-10",
+      "descricao": "Compra parcelada",
+      "categoria": "Compras",
+      "id": 53
+    },
+    {
+      "id_externo": "demo_transaction_0054",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_006",
+      "tipo": "receita",
+      "valor": 5493.2,
+      "data": "2026-09-07",
+      "descricao": "Aplicação financeira",
+      "categoria": "Salário",
+      "id": 54
+    },
+    {
+      "id_externo": "demo_transaction_0055",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_007",
+      "tipo": "receita",
+      "valor": 4873.21,
+      "data": "2026-09-04",
+      "descricao": "Compra de mercado",
+      "categoria": "Renda extra",
+      "id": 55
+    },
+    {
+      "id_externo": "demo_transaction_0056",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_008",
+      "tipo": "transferencia",
+      "valor": 533.33,
+      "data": "2026-09-01",
+      "descricao": "Crédito de salário",
+      "categoria": "Transferência",
+      "id": 56
+    },
+    {
+      "id_externo": "demo_transaction_0057",
+      "conexao_id": 1,
+      "conta_id_externo": "demo_account_009",
+      "tipo": "transferencia",
+      "valor": 826.61,
+      "data": "2026-08-29",
+      "descricao": "Transporte por aplicativo",
+      "categoria": "Investimentos",
+      "id": 57
+    },
+    {
+      "id_externo": "demo_transaction_0058",
+      "conexao_id": 2,
+      "conta_id_externo": "demo_account_010",
+      "tipo": "despesa",
+      "valor": 147.4,
+      "data": "2026-08-26",
+      "descricao": "Plano de internet",
+      "categoria": "Internet",
+      "id": 58
+    },
+    {
+      "id_externo": "demo_transaction_0059",
+      "conexao_id": 3,
+      "conta_id_externo": "demo_account_011",
+      "tipo": "despesa",
+      "valor": 101.26,
+      "data": "2026-08-23",
+      "descricao": "Conta de energia",
+      "categoria": "Energia",
+      "id": 59
+    },
+    {
+      "id_externo": "demo_transaction_0060",
+      "conexao_id": 4,
+      "conta_id_externo": "demo_account_012",
+      "tipo": "despesa",
+      "valor": 754.02,
+      "data": "2026-10-19",
+      "descricao": "Assinatura de streaming",
+      "categoria": "Mercado",
+      "id": 60
     }
   ],
   "investimentos_financeiros": [
     {
-      "id_externo": "Exemplo",
+      "id_externo": "demo_investment_001",
       "conexao_id": 1,
-      "ativo_codigo": "Exemplo",
-      "quantidade": 0,
-      "valor_atual": 0,
+      "ativo_codigo": "CDB-LIQ",
+      "quantidade": 152.2328,
+      "valor_atual": 9531.13,
       "id": 1
+    },
+    {
+      "id_externo": "demo_investment_002",
+      "conexao_id": 2,
+      "ativo_codigo": "TESOURO-SELIC",
+      "quantidade": 83.6383,
+      "valor_atual": 11673.25,
+      "id": 2
+    },
+    {
+      "id_externo": "demo_investment_003",
+      "conexao_id": 3,
+      "ativo_codigo": "ITUB4",
+      "quantidade": 89.0089,
+      "valor_atual": 2492.38,
+      "id": 3
+    },
+    {
+      "id_externo": "demo_investment_004",
+      "conexao_id": 4,
+      "ativo_codigo": "BBAS3",
+      "quantidade": 2.1976,
+      "valor_atual": 12227.43,
+      "id": 4
+    },
+    {
+      "id_externo": "demo_investment_005",
+      "conexao_id": 1,
+      "ativo_codigo": "BOVA11",
+      "quantidade": 122.2472,
+      "valor_atual": 4178.08,
+      "id": 5
+    },
+    {
+      "id_externo": "demo_investment_006",
+      "conexao_id": 2,
+      "ativo_codigo": "IVVB11",
+      "quantidade": 120.1595,
+      "valor_atual": 10193.85,
+      "id": 6
+    },
+    {
+      "id_externo": "demo_investment_007",
+      "conexao_id": 3,
+      "ativo_codigo": "HGLG11",
+      "quantidade": 97.3427,
+      "valor_atual": 3411.63,
+      "id": 7
+    },
+    {
+      "id_externo": "demo_investment_008",
+      "conexao_id": 4,
+      "ativo_codigo": "MXRF11",
+      "quantidade": 86.0055,
+      "valor_atual": 3348.7,
+      "id": 8
+    },
+    {
+      "id_externo": "demo_investment_009",
+      "conexao_id": 1,
+      "ativo_codigo": "LCI-90",
+      "quantidade": 113.1875,
+      "valor_atual": 4056.27,
+      "id": 9
+    },
+    {
+      "id_externo": "demo_investment_010",
+      "conexao_id": 2,
+      "ativo_codigo": "LCA-180",
+      "quantidade": 135.9585,
+      "valor_atual": 7177.77,
+      "id": 10
+    },
+    {
+      "id_externo": "demo_investment_011",
+      "conexao_id": 3,
+      "ativo_codigo": "PETR4",
+      "quantidade": 20.0785,
+      "valor_atual": 1328.99,
+      "id": 11
+    },
+    {
+      "id_externo": "demo_investment_012",
+      "conexao_id": 4,
+      "ativo_codigo": "WEGE3",
+      "quantidade": 101.0068,
+      "valor_atual": 5769.39,
+      "id": 12
+    },
+    {
+      "id_externo": "demo_investment_013",
+      "conexao_id": 1,
+      "ativo_codigo": "SMAL11",
+      "quantidade": 105.5514,
+      "valor_atual": 428.85,
+      "id": 13
+    },
+    {
+      "id_externo": "demo_investment_014",
+      "conexao_id": 2,
+      "ativo_codigo": "TESOURO-IPCA",
+      "quantidade": 158.2361,
+      "valor_atual": 13543.69,
+      "id": 14
+    },
+    {
+      "id_externo": "demo_investment_015",
+      "conexao_id": 3,
+      "ativo_codigo": "FUNDO-DI",
+      "quantidade": 111.1917,
+      "valor_atual": 6562.43,
+      "id": 15
+    },
+    {
+      "id_externo": "demo_investment_016",
+      "conexao_id": 4,
+      "ativo_codigo": "CDB-LIQ",
+      "quantidade": 89.7416,
+      "valor_atual": 9795.85,
+      "id": 16
+    },
+    {
+      "id_externo": "demo_investment_017",
+      "conexao_id": 1,
+      "ativo_codigo": "TESOURO-SELIC",
+      "quantidade": 70.3999,
+      "valor_atual": 11982.39,
+      "id": 17
+    },
+    {
+      "id_externo": "demo_investment_018",
+      "conexao_id": 2,
+      "ativo_codigo": "ITUB4",
+      "quantidade": 74.2738,
+      "valor_atual": 870.84,
+      "id": 18
+    },
+    {
+      "id_externo": "demo_investment_019",
+      "conexao_id": 3,
+      "ativo_codigo": "BBAS3",
+      "quantidade": 93.3263,
+      "valor_atual": 4310.13,
+      "id": 19
+    },
+    {
+      "id_externo": "demo_investment_020",
+      "conexao_id": 4,
+      "ativo_codigo": "BOVA11",
+      "quantidade": 91.5105,
+      "valor_atual": 13014.18,
+      "id": 20
+    },
+    {
+      "id_externo": "demo_investment_021",
+      "conexao_id": 1,
+      "ativo_codigo": "IVVB11",
+      "quantidade": 144.5164,
+      "valor_atual": 9128.89,
+      "id": 21
+    },
+    {
+      "id_externo": "demo_investment_022",
+      "conexao_id": 2,
+      "ativo_codigo": "HGLG11",
+      "quantidade": 11.716,
+      "valor_atual": 9515.19,
+      "id": 22
+    },
+    {
+      "id_externo": "demo_investment_023",
+      "conexao_id": 3,
+      "ativo_codigo": "MXRF11",
+      "quantidade": 10.823,
+      "valor_atual": 3326.29,
+      "id": 23
+    },
+    {
+      "id_externo": "demo_investment_024",
+      "conexao_id": 4,
+      "ativo_codigo": "LCI-90",
+      "quantidade": 147.3047,
+      "valor_atual": 5408.34,
+      "id": 24
+    },
+    {
+      "id_externo": "demo_investment_025",
+      "conexao_id": 1,
+      "ativo_codigo": "LCA-180",
+      "quantidade": 98.1946,
+      "valor_atual": 845.94,
+      "id": 25
     }
   ],
   "ativos_financeiros": [
     {
-      "codigo": "Exemplo",
-      "nome": "Meta de emergência",
-      "tipo": "informativa",
-      "mercado": "Exemplo",
+      "codigo": "CDB-LIQ",
+      "nome": "CDB com liquidez diária",
+      "tipo": "renda_fixa",
+      "mercado": "Brasil",
       "id": 1
+    },
+    {
+      "codigo": "TESOURO-SELIC",
+      "nome": "Tesouro Selic",
+      "tipo": "titulo_publico",
+      "mercado": "Brasil",
+      "id": 2
+    },
+    {
+      "codigo": "ITUB4",
+      "nome": "Itaú Unibanco PN",
+      "tipo": "acao",
+      "mercado": "B3",
+      "id": 3
+    },
+    {
+      "codigo": "BBAS3",
+      "nome": "Banco do Brasil ON",
+      "tipo": "acao",
+      "mercado": "B3",
+      "id": 4
+    },
+    {
+      "codigo": "BOVA11",
+      "nome": "ETF Ibovespa",
+      "tipo": "ETF",
+      "mercado": "B3",
+      "id": 5
+    },
+    {
+      "codigo": "IVVB11",
+      "nome": "ETF S&P 500",
+      "tipo": "ETF",
+      "mercado": "B3",
+      "id": 6
+    },
+    {
+      "codigo": "HGLG11",
+      "nome": "FII logístico",
+      "tipo": "fii",
+      "mercado": "B3",
+      "id": 7
+    },
+    {
+      "codigo": "MXRF11",
+      "nome": "FII de recebíveis",
+      "tipo": "fii",
+      "mercado": "B3",
+      "id": 8
+    },
+    {
+      "codigo": "LCI-90",
+      "nome": "LCI com prazo de 90 dias",
+      "tipo": "renda_fixa",
+      "mercado": "Brasil",
+      "id": 9
+    },
+    {
+      "codigo": "LCA-180",
+      "nome": "LCA com prazo de 180 dias",
+      "tipo": "renda_fixa",
+      "mercado": "Brasil",
+      "id": 10
+    },
+    {
+      "codigo": "PETR4",
+      "nome": "Petrobras PN",
+      "tipo": "acao",
+      "mercado": "B3",
+      "id": 11
+    },
+    {
+      "codigo": "WEGE3",
+      "nome": "WEG ON",
+      "tipo": "acao",
+      "mercado": "B3",
+      "id": 12
+    },
+    {
+      "codigo": "SMAL11",
+      "nome": "ETF Small Caps",
+      "tipo": "ETF",
+      "mercado": "B3",
+      "id": 13
+    },
+    {
+      "codigo": "TESOURO-IPCA",
+      "nome": "Tesouro IPCA+",
+      "tipo": "titulo_publico",
+      "mercado": "Brasil",
+      "id": 14
+    },
+    {
+      "codigo": "FUNDO-DI",
+      "nome": "Fundo referenciado DI",
+      "tipo": "fundo",
+      "mercado": "Brasil",
+      "id": 15
     }
   ],
   "cartoes_financeiros": [
     {
-      "id_externo": "Exemplo",
+      "id_externo": "demo_card_001",
       "conexao_id": 1,
-      "nome": "Meta de emergência",
-      "final_cartao": "Exemplo",
-      "limite": 0,
+      "nome": "Cartão principal",
+      "final_cartao": "6648",
+      "limite": 10000,
       "id": 1
+    },
+    {
+      "id_externo": "demo_card_002",
+      "conexao_id": 2,
+      "nome": "Cartão de compras online",
+      "final_cartao": "8052",
+      "limite": 1500,
+      "id": 2
+    },
+    {
+      "id_externo": "demo_card_003",
+      "conexao_id": 3,
+      "nome": "Cartão de assinaturas",
+      "final_cartao": "3621",
+      "limite": 7000,
+      "id": 3
+    },
+    {
+      "id_externo": "demo_card_004",
+      "conexao_id": 4,
+      "nome": "Cartão de viagens",
+      "final_cartao": "6081",
+      "limite": 1500,
+      "id": 4
+    },
+    {
+      "id_externo": "demo_card_005",
+      "conexao_id": 1,
+      "nome": "Cartão virtual",
+      "final_cartao": "3449",
+      "limite": 3500,
+      "id": 5
+    },
+    {
+      "id_externo": "demo_card_006",
+      "conexao_id": 2,
+      "nome": "Cartão adicional",
+      "final_cartao": "8238",
+      "limite": 2200,
+      "id": 6
+    },
+    {
+      "id_externo": "demo_card_007",
+      "conexao_id": 3,
+      "nome": "Cartão de despesas fixas",
+      "final_cartao": "6560",
+      "limite": 10000,
+      "id": 7
+    },
+    {
+      "id_externo": "demo_card_008",
+      "conexao_id": 4,
+      "nome": "Cartão reserva",
+      "final_cartao": "8646",
+      "limite": 14000,
+      "id": 8
     }
   ],
   "faturas_financeiras": [
     {
-      "id_externo": "Exemplo",
+      "id_externo": "demo_invoice_001",
       "conexao_id": 1,
-      "cartao_id_externo": "Exemplo",
+      "cartao_id_externo": "demo_card_001",
       "periodo": "mensal",
-      "valor_total": 0,
-      "status": "ativo",
+      "valor_total": 2446.41,
+      "status": "paga",
       "id": 1
+    },
+    {
+      "id_externo": "demo_invoice_002",
+      "conexao_id": 2,
+      "cartao_id_externo": "demo_card_002",
+      "periodo": "mensal",
+      "valor_total": 1282.59,
+      "status": "fechada",
+      "id": 2
+    },
+    {
+      "id_externo": "demo_invoice_003",
+      "conexao_id": 3,
+      "cartao_id_externo": "demo_card_003",
+      "periodo": "anual",
+      "valor_total": 3137.91,
+      "status": "pendente",
+      "id": 3
+    },
+    {
+      "id_externo": "demo_invoice_004",
+      "conexao_id": 4,
+      "cartao_id_externo": "demo_card_004",
+      "periodo": "mensal",
+      "valor_total": 2670.08,
+      "status": "aberta",
+      "id": 4
+    },
+    {
+      "id_externo": "demo_invoice_005",
+      "conexao_id": 1,
+      "cartao_id_externo": "demo_card_005",
+      "periodo": "mensal",
+      "valor_total": 1741.39,
+      "status": "paga",
+      "id": 5
+    },
+    {
+      "id_externo": "demo_invoice_006",
+      "conexao_id": 2,
+      "cartao_id_externo": "demo_card_006",
+      "periodo": "mensal",
+      "valor_total": 2658.42,
+      "status": "fechada",
+      "id": 6
+    },
+    {
+      "id_externo": "demo_invoice_007",
+      "conexao_id": 3,
+      "cartao_id_externo": "demo_card_007",
+      "periodo": "anual",
+      "valor_total": 377.71,
+      "status": "pendente",
+      "id": 7
+    },
+    {
+      "id_externo": "demo_invoice_008",
+      "conexao_id": 4,
+      "cartao_id_externo": "demo_card_008",
+      "periodo": "mensal",
+      "valor_total": 1031.4,
+      "status": "aberta",
+      "id": 8
+    },
+    {
+      "id_externo": "demo_invoice_009",
+      "conexao_id": 1,
+      "cartao_id_externo": "demo_card_001",
+      "periodo": "mensal",
+      "valor_total": 1455.18,
+      "status": "paga",
+      "id": 9
+    },
+    {
+      "id_externo": "demo_invoice_010",
+      "conexao_id": 2,
+      "cartao_id_externo": "demo_card_002",
+      "periodo": "mensal",
+      "valor_total": 2658.03,
+      "status": "fechada",
+      "id": 10
+    },
+    {
+      "id_externo": "demo_invoice_011",
+      "conexao_id": 3,
+      "cartao_id_externo": "demo_card_003",
+      "periodo": "anual",
+      "valor_total": 187.98,
+      "status": "pendente",
+      "id": 11
+    },
+    {
+      "id_externo": "demo_invoice_012",
+      "conexao_id": 4,
+      "cartao_id_externo": "demo_card_004",
+      "periodo": "mensal",
+      "valor_total": 1253.42,
+      "status": "aberta",
+      "id": 12
+    },
+    {
+      "id_externo": "demo_invoice_013",
+      "conexao_id": 1,
+      "cartao_id_externo": "demo_card_005",
+      "periodo": "mensal",
+      "valor_total": 3134.3,
+      "status": "paga",
+      "id": 13
+    },
+    {
+      "id_externo": "demo_invoice_014",
+      "conexao_id": 2,
+      "cartao_id_externo": "demo_card_006",
+      "periodo": "mensal",
+      "valor_total": 3156.44,
+      "status": "fechada",
+      "id": 14
+    },
+    {
+      "id_externo": "demo_invoice_015",
+      "conexao_id": 3,
+      "cartao_id_externo": "demo_card_007",
+      "periodo": "anual",
+      "valor_total": 1832.06,
+      "status": "pendente",
+      "id": 15
+    },
+    {
+      "id_externo": "demo_invoice_016",
+      "conexao_id": 4,
+      "cartao_id_externo": "demo_card_008",
+      "periodo": "mensal",
+      "valor_total": 664.72,
+      "status": "aberta",
+      "id": 16
     }
   ],
   "seguidores": [
     {
       "id": 1,
-      "seguidor_id": 1,
+      "seguidor_id": 2,
+      "seguido_id": 1,
+      "data_criacao": "2026-10-16T12:00:00-03:00"
+    },
+    {
+      "id": 2,
+      "seguidor_id": 2,
+      "seguido_id": 3,
+      "data_criacao": "2026-10-14T12:00:00-03:00"
+    },
+    {
+      "id": 3,
+      "seguidor_id": 2,
+      "seguido_id": 5,
+      "data_criacao": "2026-10-12T12:00:00-03:00"
+    },
+    {
+      "id": 4,
+      "seguidor_id": 2,
+      "seguido_id": 7,
+      "data_criacao": "2026-10-10T12:00:00-03:00"
+    },
+    {
+      "id": 5,
+      "seguidor_id": 4,
       "seguido_id": 2,
-      "data_criacao": "2026-10-01T10:00:00-03:00"
+      "data_criacao": "2026-10-13T12:00:00-03:00"
+    },
+    {
+      "id": 6,
+      "seguidor_id": 4,
+      "seguido_id": 6,
+      "data_criacao": "2026-10-09T12:00:00-03:00"
+    },
+    {
+      "id": 7,
+      "seguidor_id": 4,
+      "seguido_id": 8,
+      "data_criacao": "2026-10-07T12:00:00-03:00"
+    },
+    {
+      "id": 8,
+      "seguidor_id": 6,
+      "seguido_id": 1,
+      "data_criacao": "2026-10-12T12:00:00-03:00"
+    },
+    {
+      "id": 9,
+      "seguidor_id": 6,
+      "seguido_id": 3,
+      "data_criacao": "2026-10-10T12:00:00-03:00"
+    },
+    {
+      "id": 10,
+      "seguidor_id": 6,
+      "seguido_id": 5,
+      "data_criacao": "2026-10-08T12:00:00-03:00"
+    },
+    {
+      "id": 11,
+      "seguidor_id": 6,
+      "seguido_id": 7,
+      "data_criacao": "2026-10-06T12:00:00-03:00"
+    },
+    {
+      "id": 12,
+      "seguidor_id": 8,
+      "seguido_id": 2,
+      "data_criacao": "2026-10-09T12:00:00-03:00"
+    },
+    {
+      "id": 13,
+      "seguidor_id": 8,
+      "seguido_id": 4,
+      "data_criacao": "2026-10-07T12:00:00-03:00"
+    },
+    {
+      "id": 14,
+      "seguidor_id": 8,
+      "seguido_id": 6,
+      "data_criacao": "2026-10-05T12:00:00-03:00"
     }
   ],
   "curtidas_posts": [
     {
       "id": 1,
       "usuario_id": 1,
-      "post_id": 1,
-      "data_criacao": "2026-10-18T10:00:00-03:00"
+      "post_id": 2,
+      "data_criacao": "2026-10-16T12:00:00-03:00"
+    },
+    {
+      "id": 2,
+      "usuario_id": 3,
+      "post_id": 2,
+      "data_criacao": "2026-10-14T12:00:00-03:00"
+    },
+    {
+      "id": 3,
+      "usuario_id": 5,
+      "post_id": 2,
+      "data_criacao": "2026-10-12T12:00:00-03:00"
+    },
+    {
+      "id": 4,
+      "usuario_id": 7,
+      "post_id": 2,
+      "data_criacao": "2026-10-10T12:00:00-03:00"
+    },
+    {
+      "id": 5,
+      "usuario_id": 2,
+      "post_id": 4,
+      "data_criacao": "2026-10-13T12:00:00-03:00"
+    },
+    {
+      "id": 6,
+      "usuario_id": 4,
+      "post_id": 4,
+      "data_criacao": "2026-10-11T12:00:00-03:00"
+    },
+    {
+      "id": 7,
+      "usuario_id": 6,
+      "post_id": 4,
+      "data_criacao": "2026-10-09T12:00:00-03:00"
+    },
+    {
+      "id": 8,
+      "usuario_id": 8,
+      "post_id": 4,
+      "data_criacao": "2026-10-07T12:00:00-03:00"
+    },
+    {
+      "id": 9,
+      "usuario_id": 1,
+      "post_id": 6,
+      "data_criacao": "2026-10-12T12:00:00-03:00"
+    },
+    {
+      "id": 10,
+      "usuario_id": 3,
+      "post_id": 6,
+      "data_criacao": "2026-10-10T12:00:00-03:00"
+    },
+    {
+      "id": 11,
+      "usuario_id": 5,
+      "post_id": 6,
+      "data_criacao": "2026-10-08T12:00:00-03:00"
+    },
+    {
+      "id": 12,
+      "usuario_id": 7,
+      "post_id": 6,
+      "data_criacao": "2026-10-06T12:00:00-03:00"
+    },
+    {
+      "id": 13,
+      "usuario_id": 2,
+      "post_id": 8,
+      "data_criacao": "2026-10-09T12:00:00-03:00"
+    },
+    {
+      "id": 14,
+      "usuario_id": 4,
+      "post_id": 8,
+      "data_criacao": "2026-10-07T12:00:00-03:00"
+    },
+    {
+      "id": 15,
+      "usuario_id": 6,
+      "post_id": 8,
+      "data_criacao": "2026-10-05T12:00:00-03:00"
+    },
+    {
+      "id": 16,
+      "usuario_id": 8,
+      "post_id": 8,
+      "data_criacao": "2026-10-19T12:00:00-03:00"
+    },
+    {
+      "id": 17,
+      "usuario_id": 1,
+      "post_id": 10,
+      "data_criacao": "2026-10-08T12:00:00-03:00"
+    },
+    {
+      "id": 18,
+      "usuario_id": 3,
+      "post_id": 10,
+      "data_criacao": "2026-10-06T12:00:00-03:00"
+    },
+    {
+      "id": 19,
+      "usuario_id": 5,
+      "post_id": 10,
+      "data_criacao": "2026-10-04T12:00:00-03:00"
+    },
+    {
+      "id": 20,
+      "usuario_id": 7,
+      "post_id": 10,
+      "data_criacao": "2026-10-18T12:00:00-03:00"
+    },
+    {
+      "id": 21,
+      "usuario_id": 2,
+      "post_id": 12,
+      "data_criacao": "2026-10-05T12:00:00-03:00"
+    },
+    {
+      "id": 22,
+      "usuario_id": 4,
+      "post_id": 12,
+      "data_criacao": "2026-10-19T12:00:00-03:00"
+    },
+    {
+      "id": 23,
+      "usuario_id": 6,
+      "post_id": 12,
+      "data_criacao": "2026-10-17T12:00:00-03:00"
+    },
+    {
+      "id": 24,
+      "usuario_id": 8,
+      "post_id": 12,
+      "data_criacao": "2026-10-15T12:00:00-03:00"
     }
   ],
   "curtidas_comentarios": [
     {
       "id": 1,
-      "usuario_id": 1,
+      "usuario_id": 8,
       "comentario_id": 1,
-      "data_criacao": "2026-10-18T10:05:00-03:00"
+      "data_criacao": "2026-10-10T11:00:00-03:00"
+    },
+    {
+      "id": 2,
+      "usuario_id": 6,
+      "comentario_id": 2,
+      "data_criacao": "2026-10-11T11:00:00-03:00"
+    },
+    {
+      "id": 3,
+      "usuario_id": 4,
+      "comentario_id": 3,
+      "data_criacao": "2026-10-12T11:00:00-03:00"
+    },
+    {
+      "id": 4,
+      "usuario_id": 2,
+      "comentario_id": 4,
+      "data_criacao": "2026-10-13T11:00:00-03:00"
+    },
+    {
+      "id": 5,
+      "usuario_id": 8,
+      "comentario_id": 6,
+      "data_criacao": "2026-10-05T11:00:00-03:00"
+    },
+    {
+      "id": 6,
+      "usuario_id": 6,
+      "comentario_id": 7,
+      "data_criacao": "2026-10-06T11:00:00-03:00"
+    },
+    {
+      "id": 7,
+      "usuario_id": 4,
+      "comentario_id": 8,
+      "data_criacao": "2026-10-07T11:00:00-03:00"
+    },
+    {
+      "id": 8,
+      "usuario_id": 2,
+      "comentario_id": 9,
+      "data_criacao": "2026-10-08T11:00:00-03:00"
+    },
+    {
+      "id": 9,
+      "usuario_id": 8,
+      "comentario_id": 11,
+      "data_criacao": "2026-10-16T11:00:00-03:00"
+    },
+    {
+      "id": 10,
+      "usuario_id": 6,
+      "comentario_id": 12,
+      "data_criacao": "2026-10-17T11:00:00-03:00"
+    },
+    {
+      "id": 11,
+      "usuario_id": 4,
+      "comentario_id": 13,
+      "data_criacao": "2026-10-18T11:00:00-03:00"
+    },
+    {
+      "id": 12,
+      "usuario_id": 2,
+      "comentario_id": 14,
+      "data_criacao": "2026-10-19T11:00:00-03:00"
+    },
+    {
+      "id": 13,
+      "usuario_id": 8,
+      "comentario_id": 16,
+      "data_criacao": "2026-10-11T11:00:00-03:00"
+    },
+    {
+      "id": 14,
+      "usuario_id": 6,
+      "comentario_id": 17,
+      "data_criacao": "2026-10-12T11:00:00-03:00"
+    },
+    {
+      "id": 15,
+      "usuario_id": 4,
+      "comentario_id": 18,
+      "data_criacao": "2026-10-13T11:00:00-03:00"
+    },
+    {
+      "id": 16,
+      "usuario_id": 2,
+      "comentario_id": 19,
+      "data_criacao": "2026-10-14T11:00:00-03:00"
+    },
+    {
+      "id": 17,
+      "usuario_id": 8,
+      "comentario_id": 21,
+      "data_criacao": "2026-10-06T11:00:00-03:00"
+    },
+    {
+      "id": 18,
+      "usuario_id": 6,
+      "comentario_id": 22,
+      "data_criacao": "2026-10-07T11:00:00-03:00"
+    },
+    {
+      "id": 19,
+      "usuario_id": 4,
+      "comentario_id": 23,
+      "data_criacao": "2026-10-08T11:00:00-03:00"
+    },
+    {
+      "id": 20,
+      "usuario_id": 2,
+      "comentario_id": 24,
+      "data_criacao": "2026-10-09T11:00:00-03:00"
+    },
+    {
+      "id": 21,
+      "usuario_id": 8,
+      "comentario_id": 26,
+      "data_criacao": "2026-10-17T11:00:00-03:00"
+    },
+    {
+      "id": 22,
+      "usuario_id": 6,
+      "comentario_id": 27,
+      "data_criacao": "2026-10-18T11:00:00-03:00"
+    },
+    {
+      "id": 23,
+      "usuario_id": 4,
+      "comentario_id": 28,
+      "data_criacao": "2026-10-19T11:00:00-03:00"
+    },
+    {
+      "id": 24,
+      "usuario_id": 2,
+      "comentario_id": 29,
+      "data_criacao": "2026-10-04T11:00:00-03:00"
+    },
+    {
+      "id": 25,
+      "usuario_id": 8,
+      "comentario_id": 31,
+      "data_criacao": "2026-10-12T11:00:00-03:00"
+    },
+    {
+      "id": 26,
+      "usuario_id": 6,
+      "comentario_id": 32,
+      "data_criacao": "2026-10-13T11:00:00-03:00"
+    },
+    {
+      "id": 27,
+      "usuario_id": 4,
+      "comentario_id": 33,
+      "data_criacao": "2026-10-14T11:00:00-03:00"
+    },
+    {
+      "id": 28,
+      "usuario_id": 2,
+      "comentario_id": 34,
+      "data_criacao": "2026-10-15T11:00:00-03:00"
+    },
+    {
+      "id": 29,
+      "usuario_id": 8,
+      "comentario_id": 36,
+      "data_criacao": "2026-10-07T11:00:00-03:00"
+    },
+    {
+      "id": 30,
+      "usuario_id": 6,
+      "comentario_id": 37,
+      "data_criacao": "2026-10-08T11:00:00-03:00"
+    },
+    {
+      "id": 31,
+      "usuario_id": 4,
+      "comentario_id": 38,
+      "data_criacao": "2026-10-09T11:00:00-03:00"
+    },
+    {
+      "id": 32,
+      "usuario_id": 2,
+      "comentario_id": 39,
+      "data_criacao": "2026-10-10T11:00:00-03:00"
     }
   ],
   "participantes_chats": [
@@ -320,6 +3695,171 @@
       "id": 1,
       "usuario_id": 1,
       "chat_id": 1
+    },
+    {
+      "id": 2,
+      "usuario_id": 2,
+      "chat_id": 1
+    },
+    {
+      "id": 3,
+      "usuario_id": 3,
+      "chat_id": 1
+    },
+    {
+      "id": 4,
+      "usuario_id": 4,
+      "chat_id": 1
+    },
+    {
+      "id": 5,
+      "usuario_id": 1,
+      "chat_id": 2
+    },
+    {
+      "id": 6,
+      "usuario_id": 2,
+      "chat_id": 2
+    },
+    {
+      "id": 7,
+      "usuario_id": 3,
+      "chat_id": 2
+    },
+    {
+      "id": 8,
+      "usuario_id": 4,
+      "chat_id": 2
+    },
+    {
+      "id": 9,
+      "usuario_id": 5,
+      "chat_id": 2
+    },
+    {
+      "id": 10,
+      "usuario_id": 6,
+      "chat_id": 2
+    },
+    {
+      "id": 11,
+      "usuario_id": 1,
+      "chat_id": 3
+    },
+    {
+      "id": 12,
+      "usuario_id": 2,
+      "chat_id": 3
+    },
+    {
+      "id": 13,
+      "usuario_id": 3,
+      "chat_id": 3
+    },
+    {
+      "id": 14,
+      "usuario_id": 4,
+      "chat_id": 3
+    },
+    {
+      "id": 15,
+      "usuario_id": 1,
+      "chat_id": 4
+    },
+    {
+      "id": 16,
+      "usuario_id": 2,
+      "chat_id": 4
+    },
+    {
+      "id": 17,
+      "usuario_id": 3,
+      "chat_id": 4
+    },
+    {
+      "id": 18,
+      "usuario_id": 4,
+      "chat_id": 4
+    },
+    {
+      "id": 19,
+      "usuario_id": 5,
+      "chat_id": 4
+    },
+    {
+      "id": 20,
+      "usuario_id": 6,
+      "chat_id": 4
+    },
+    {
+      "id": 21,
+      "usuario_id": 1,
+      "chat_id": 5
+    },
+    {
+      "id": 22,
+      "usuario_id": 2,
+      "chat_id": 5
+    },
+    {
+      "id": 23,
+      "usuario_id": 3,
+      "chat_id": 5
+    },
+    {
+      "id": 24,
+      "usuario_id": 4,
+      "chat_id": 5
+    },
+    {
+      "id": 25,
+      "usuario_id": 1,
+      "chat_id": 6
+    },
+    {
+      "id": 26,
+      "usuario_id": 2,
+      "chat_id": 6
+    },
+    {
+      "id": 27,
+      "usuario_id": 3,
+      "chat_id": 6
+    },
+    {
+      "id": 28,
+      "usuario_id": 4,
+      "chat_id": 6
+    },
+    {
+      "id": 29,
+      "usuario_id": 5,
+      "chat_id": 6
+    },
+    {
+      "id": 30,
+      "usuario_id": 6,
+      "chat_id": 6
+    },
+    {
+      "id": 31,
+      "usuario_id": 1,
+      "chat_id": 7
+    },
+    {
+      "id": 32,
+      "usuario_id": 2,
+      "chat_id": 7
+    },
+    {
+      "id": 33,
+      "usuario_id": 3,
+      "chat_id": 7
+    },
+    {
+      "id": 34,
+      "usuario_id": 4,
+      "chat_id": 7
     }
   ],
   "codigos_otp": [],
