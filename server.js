@@ -1,10 +1,14 @@
 const jsonServer = require('json-server');
-
 const server = jsonServer.create();
-server.set('trust proxy', 1); // atrás do proxy do Render: req.ip passa a ser o IP real do cliente
+const router = jsonServer.router('db.json');
+const middlewares = jsonServer.defaults();
 
-server.use(jsonServer.defaults()); // CORS, logger, static
-server.use(jsonServer.bodyParser);
+// O Render injeta automaticamente a porta correta nesta variável
+const port = process.env.PORT || 3000; 
 
-const port = process.env.PORT || 3000;
-server.listen(port, () => console.log(`API em http://localhost:${port}`));
+server.use(middlewares);
+server.use(router);
+
+server.listen(port, () => {
+    console.log(`JSON Server está rodando na porta ${port}`);
+});
